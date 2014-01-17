@@ -117,3 +117,5 @@ atomicas a corto plazo con el involcramiento del desarrollo de papers.
 * Documentar empleando rst en lo que se pueda.
 * Definir tareas atomicas a corto plazo.
 * algo
+
+marzisak
