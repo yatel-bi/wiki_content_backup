@@ -109,6 +109,8 @@ en una buena promocion del proyecto, en la asignación de mentores que
 existian en años pasado del proyecto y también en la asignación de tareas
 atomicas a corto plazo con el involcramiento del desarrollo de papers.
 
+Por lo que concluimos que esta forma de trabajo podria ser exitosa para traer practicantes
+al proyecto Yatel.
 
 8. Algunas convenciones a tener en cuenta
 +++++++++++++++++++++++++++++++++++++++++
@@ -116,6 +118,4 @@ atomicas a corto plazo con el involcramiento del desarrollo de papers.
 * Aportar en foro las desiciones y opinones.
 * Documentar empleando rst en lo que se pueda.
 * Definir tareas atomicas a corto plazo.
-* algo
-
-marzisak
+* Realizar reuniones en lo posible semanal o quincenalmente.
