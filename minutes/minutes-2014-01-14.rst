@@ -23,10 +23,11 @@ La agenda de esta minuta contiene los siguientes tópicos:
 1. Estado actual del proyecto Yatel
 +++++++++++++++++++++++++++++++++++
 
-Today the Yatel project is released in 0.3 version.
-Many things has changed during the evolution of the project.
-But also too these changes were positives for all the project and the team.
-Now we can say yatel contains the following:
+Hoy en dia el projecto Yatel tiene la release 0.3 stabke.
+Muchas cosas han cambiando durante la evolucion de este proyecto.
+Pero estos cambios fueron (y son) positivos para todo el proyecto y el equipo desarrollo involucrado.
+Hoy en dia podemos decir que el proyecto Yatel tiene en su totalidad
+los siguientes elementos:
 
 * El release de la version 0.3.
 * Repositorio en bitbucket.
