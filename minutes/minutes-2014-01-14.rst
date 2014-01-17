@@ -113,4 +113,6 @@ atomicas a corto plazo con el involcramiento del desarrollo de papers.
 8. Algunas convenciones a tener en cuenta
 +++++++++++++++++++++++++++++++++++++++++
 
-**COMPLETAR**
+* Aportar en foro las desiciones y opinones.
+* Documentar empleando rst en lo que se pueda.
+* Definir tareas atomicas a corto plazo.
