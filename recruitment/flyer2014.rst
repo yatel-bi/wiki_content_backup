@@ -24,3 +24,10 @@ paresca en esta lista)
     - Traducir.
     - Colaborar con CSS para las páginas.
     - Probar herramientas.
+ - Tecnologias:
+     - python
+     - sql
+     - mdx
+     - mondrian
+     - saiku
+     - restructuredText
