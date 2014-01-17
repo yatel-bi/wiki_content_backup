@@ -1,7 +1,7 @@
 .. tags: 
 .. title: Minuta - 2014-01-14
 
-In the following minutes participants were :
+En las siguientes minutas los participantes fueron:
 
 * **JBC**
 * **rliberal**
@@ -9,15 +9,15 @@ In the following minutes participants were :
 * **Roque**
 * **Adrian**
 
-The agenda of this minutes contains the next topics:
+La agenda de esta minuta contiene los siguientes tópicos:
 
-1. Current State of the Yatel project
-2. Technologies involved in the Yatel project
-#. How to use (some rules) the Yatel project's google group
-#. Task Distribution (for the next semester)
-#. How should be called as our high level language?
-#. We should make a talk at our university? When?
-#. Interns. How to manage them? (Two ways: like the TVD group, like the "Incendios" group)
+1. Estado actual del proyecto Yatel
+2. Tecnologias involucradas en el proyecto yatel
+#. Algunas reglas para el uso y participación del google group de Yatel
+#. Distribucion de tareas para el siguiente semestre
+#. Como deberiamos llamar a nuestro lenguaje de alto nivel?
+#. Deberiamos dar una charla de nuestro proyecto en la UTN? Cuando?
+#. Practicantes: Como atraerlos? Como manejarlos y asignarles tareas?
 #. Algunas convenciones a tener en cuenta
 
 1. Estado actual del proyecto Yatel
