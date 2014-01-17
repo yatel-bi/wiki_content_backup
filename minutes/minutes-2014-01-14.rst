@@ -1,0 +1,109 @@
+.. tags: 
+.. title: Minuta - 2014-01-14
+
+In the following minutes participants were :
+
+* **JBC**
+* **rliberal**
+* **MAG**
+* **Roque**
+* **Adrian**
+
+The agenda of this minutes contains the next topics:
+
+1. Current State of the Yatel project
+2. Technologies involved in the Yatel project
+#. How to use (some rules) the Yatel project's google group
+#. Task Distribution (for the next semester)
+#. How should be called as our high level language?
+#. We should make a talk at our university? When?
+#. Interns. How to manage them? (Two ways: like the TVD group, like the "Incendios" group)
+#. Algunas convenciones a tener en cuenta
+
+1. Estado actual del proyecto Yatel
++++++++++++++++++++++++++++++++++++
+
+Today the Yatel project is released in 0.3 version.
+Many things has changed during the evolution of the project.
+But also too these changes were positives for all the project and the team.
+Now we can say yatel contains the following:
+
+* El release de la version 0.3.
+* Repositorio en bitbucket.
+* Papers publicados (entre 6 y 7 papers).
+* 3 Asistencias a conferencias en pycon argentina (2012), pycon españa (nov 2013) y scipycon argentina (mayo 2013).
+* Un sitio web.
+* Un google group.
+* Una wiki.
+* Valides institucional de la UTN FRC como proyecto de Investigacion.
+* Logos oficiales diseñados.
+
+2. Tecnologias involucradas en el proyecto yatel
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+* Lenguajes de programacion: Python 2.7. **Javascript se incorporará a futuro.**
+* Sistema de versionado: Mercurial (hg).
+* `Repositorio de Mercurial <https://bitbucket.org/yatel/yatel>`_ .
+* Documentacion: rst (reStructuredText).
+
+3. Algunas reglas para el uso y participación del google group de Yatel
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* Antes que nada usted debe saber que el grupo de yatel es el `siguiente <https://groups.google.com/forum/#!forum/utn_kdd>`_ .
+* En lo posible hay que comentar usando el +1 o -1 en el foro para ideas o topicos a discutir.
+* Si el topico a discutir conlleva a una discusion de intercambio de ideas, comentar debidamente releacionado al tema.
+* Cualquier aporte pertinente es valido.
+* Aporte! Aunque sea usando el +1 o -1. La actividad del foro enriquece al proyecto y sus decisiones.
+
+4. Distribucion de tareas para el siguiente semestre
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Antes que nada la distribucion de tarea debe ser realizada en forma atomica.
+Por más que a continuacion se nombren hitos a largo plazo y poco definidos es
+necesario ir hilando fino dichos conceptos de manera de generar avanzes incrementales
+visibles y semanales en el projecto Yatel.
+
+Para ello es necesario organizar bien los objetivos y determinar deadlines de los mismos.
+Es necesario tener en cuenta de que a pesar de ser un proyecto de investigación,
+es necesario ser pragmático para obtener resultados visibles.
+
+Ahora a continuacion se nombrarán las tareas asignadas a cada uno
+de los presentes de la reunion:
+
+* Paper **JBC - MAG**. Tendencia a sacar White Papers
+* Creacion de bases **JBC - Adrian - Roque**. Ver de buscar unas 10 bases de datos e integrarlas con su script a Yatel.
+* Documentacion **rliberal - JBC - Roque**. Documentacion oficial en INGLES.
+* Programacion  **JBC - rliberal - Roque**. Creacion de lenguaje de alto nivel (algo arriba de QBJ), testear.
+* INTA
+    
+    * Paper Inta **MAG - Adrian**. Reeveer este topico.
+    * Base de datos compartida **MAG - JBC**. Reeveer este topico.
+    * Proceso semantico **MAG - rliberal**. Diseñar proceso semantico.
+    * Analisis datos nuevos **MAG - Adrian**. Buscar nuevos datos a analizar para incluir en Yatel.
+
+5. Como deberiamos llamar a nuestro lenguaje de alto nivel?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+**NO RESUELTO AUN**
+
+
+6. Deberiamos dar una charla de nuestro proyecto en la UTN? Cuando?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Seria apropiado dar una charla en lo posible de nuestro proyecto,
+a inicios de marzo cuando comience el ciclo lectivo 2014.
+
+Debemos recordar que para el 2014 podemos asignar 2 practicantes oficiales al proyecto.
+Por otra parte debemos considerar la forma de atraer nuevos practicantes.
+Eso se discutira en **7**.
+
+7. Practicantes: Como atraerlos? Como manejarlos y asignarles tareas?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+**COMPLETAR**
+
+
+8. Algunas convenciones a tener en cuenta
++++++++++++++++++++++++++++++++++++++++++
+
+**COMPLETAR**
