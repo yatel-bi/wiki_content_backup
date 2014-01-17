@@ -101,7 +101,13 @@ Eso se discutira en **7**.
 7. Practicantes: Como atraerlos? Como manejarlos y asignarles tareas?
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-**COMPLETAR**
+Se busca atraer a los practicantes a través del mecanimo similar que
+implemento el grupo de TVD de la UTN.
+
+La forma implementada para traer practicantes de TVD, se baso principalmente
+en una buena promocion del proyecto, en la asignación de mentores que
+existian en años pasado del proyecto y también en la asignación de tareas
+atomicas a corto plazo con el involcramiento del desarrollo de papers.
 
 
 8. Algunas convenciones a tener en cuenta
