@@ -23,8 +23,8 @@ paresca en esta lista)
     - Documentar.
     - Traducir.
     - Colaborar con CSS para las páginas.
-    - Probar herramientas.
- - Tecnologias:
+    - Probar herramientas.   
+- Tecnologias:
      - python
      - sql
      - mdx
