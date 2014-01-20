@@ -25,6 +25,9 @@ Fecha
 - ``datetime``: crea una fecha y hora
 - ``date``: crea una fecha
 - ``time``: crea una hora
+- ``year``: devuelve el año de la fecha enviada como parámetro 
+- ``month``: devuelve el mes de la fecha enviada como parámetro
+- ``day``: devuelve el dia de la fecha enviada como parámetro
 
 
 Aritmetica
