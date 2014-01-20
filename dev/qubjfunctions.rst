@@ -6,11 +6,17 @@ Redes
 
 **TODAS IMPLEMENTADAS**
 
+En este `código <https://bitbucket.org/yatel/yatel/src/tip/yatel/qbj/functions.py?at=dev>`_
+hay un hash que se llama ``FUNCTIONS`` con todas las funciones que ya existen
+
 
 Estadística
 -----------
 
 **TODAS IMPLEMENTADAS**
+
+En este `código <https://bitbucket.org/yatel/yatel/src/tip/yatel/qbj/functions.py?at=dev>`_
+hay un hash que se llama ``FUNCTIONS`` con todas las funciones que ya existen
 
 
 Fecha
