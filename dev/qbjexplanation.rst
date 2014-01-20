@@ -1,8 +1,8 @@
 .. tags: qbj, ejemplo, impleentacion, sql
 .. title: Explicación de Qbj
 
-La idea es tener un grupo de funciones de bajo nivel que sirvan p
-ara desarrollar un lenguaje de alto nivel de manera mas sencilla.
+La idea es tener un grupo de funciones de bajo nivel que sirvan para
+desarrollar un lenguaje de alto nivel de manera mas sencilla.
 Por ejemplo:
 
 En sql algo tan simple como
