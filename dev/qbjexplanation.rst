@@ -14,7 +14,7 @@ En sql algo tan simple como
 Es una cadena de llamadas a algun protocolo de mas bajo nivel 
 mucho menos explicito pero mucho mas generico y flexible que SQL . 
 Podriamos razonar esa sentencia 
-sql (invento un cacho) con qbj a algo parecido a esto: 
+SQL (invento un cacho) con QBJ a algo parecido a esto: 
 
 .. code-block:: javascript
 
@@ -72,7 +72,7 @@ sql (invento un cacho) con qbj a algo parecido a esto:
       }
 	}
     
-Como notarán en el ejemplo hay un monton de funciones d emas bajo nivel
-que se llaman desde sql para realizar su función. En definitiva QBJ va 
+Como notarán en el ejemplo hay un monton de funciones de más bajo nivel
+que se llaman desde SQL para realizar su función. En definitiva QBJ va 
 a ser nuestro motor de soporte para nuestra verdadera herramienta de
-consulta (que aun no tiene nombre)
+consulta (que aun no tiene nombre).
