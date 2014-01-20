@@ -37,6 +37,10 @@ Aritmetica
 - ``floor`` resto de division
 - ``pow`` potencia
 - ``xroot`` raiz X
+- ``avg`` promedio
+- ``min`` minimo
+- ``max`` maximo
+- ``count`` conteo
 
 
 Cadenas de texto
