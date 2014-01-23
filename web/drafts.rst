@@ -3,11 +3,15 @@
 
 esa pagina tiene la info que va a tener la pagina principal de yatel 
 no va a tener mucho mas que eso pero: 
-	- la parte de caracteristicas va a ser un carousel con imagenes 
-      lindas (ya estoy cotizando con diseñadores)
-    - y los usos van a tener unos iconos grandotes lindos
+	
+- la parte de caracteristicas va a ser un carousel con imagenes 
+  lindas (ya estoy cotizando con diseñadores)
+- y los usos van a tener unos iconos grandotes lindos
     
 Copie de aca: http://www.pentaho.com/
+
+DRAFT
+-----
 
 **Slogan:** A Cutting Edge Platform for Data Integration & Business Analytics
 
