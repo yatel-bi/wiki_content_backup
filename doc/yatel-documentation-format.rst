@@ -24,3 +24,4 @@ es aquel que emplea NumPy
     describe : type
         Explanation
     """
+Para más información dirigirse aquí
