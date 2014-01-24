@@ -16,3 +16,6 @@ Que documentar?
 
 Prioridades de documentacion
 ++++++++++++++++++++++++++++
+
+* Que seria lo primero que debemos documentar?
+* Como podemos establecer un orden de prioridad que se adapte a los avances escalables de Yatel?
