@@ -11,4 +11,8 @@ Que documentar?
 
 * Codigo en Python.
 * Tutoriales de instalacion?
-* Como forkear el proyecto?
+* Como forkear el proyecto? Tutorial de hg, rapido?
+* Como usar Yatel (manual de usuario)?
+
+Prioridades de documentacion
+++++++++++++++++++++++++++++
