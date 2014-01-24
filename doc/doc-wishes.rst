@@ -19,3 +19,14 @@ Prioridades de documentacion
 
 * Que seria lo primero que debemos documentar?
 * Como podemos establecer un orden de prioridad que se adapte a los avances escalables de Yatel?
+
+Documentadores
+++++++++++++++
+
+* Quienes documentan en Yatel?
+* Cada cuanto tiempo hay que hacer reviews de las docs?
+
+Extras
+++++++
+
+* Video tutoriales onda los resources?
