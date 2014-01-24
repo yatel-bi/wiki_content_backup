@@ -25,4 +25,4 @@ es aquel que emplea NumPy
         Explanation
     """
 
-Para más información dirigirse`aquí <http://codeandchaos.wordpress.com/2012/08/09/sphinx-and-numpydoc/>`_ .
+Para más información dirigirse `aquí <http://codeandchaos.wordpress.com/2012/08/09/sphinx-and-numpydoc/>`_ .
