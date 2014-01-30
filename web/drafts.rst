@@ -20,7 +20,7 @@ Characterístics:
 - Allows the creation of user-profile-distance-based networks and their
   multidimensional analysis through a process of exploration
 - Store your data in all the mayors vendors (Drizzle, Firebird
-  Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase)
+  Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
 - **Traducir:** Aprobecha conjuntos de datos limitados con esta herramienta única
 - Powerd by Python
     
@@ -33,3 +33,10 @@ Usages:
   json based query language from any tecnology.
 - Yatel Dashboard: Use the yatel analitics dashboard to analize your data 
   using a user friendly interface
+  
+  
+  .. [0] http://www.drizzle.org/ | http://www.firebirdsql.org/ |
+         http://www.mysql.com/ | http://es.wikipedia.org/wiki/Oracle_Database |
+         http://www.microsoft.com/es-xl/sqlserver/default.aspx |
+         http://www.postgresql.org/ | http://www.sqlite.org/ |
+         http://es.wikipedia.org/wiki/Sybase
