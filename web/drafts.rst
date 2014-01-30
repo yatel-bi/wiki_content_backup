@@ -17,13 +17,14 @@ DRAFT
 
 Characterístics:
 
-- Allows the creation of user-profile-distance-based networks and their
-  multidimensional analysis through a process of exploration
 - Store your data in all the mayors vendors (Drizzle, Firebird
   Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
-- **Traducir:** Aprobecha conjuntos de datos limitados con esta herramienta única
 - Powerd by Python
-    
+
+- Allows the creation of user-profile-distance-based networks and their
+  multidimensional analysis through a process of exploration
+- **Traducir:** Aprobecha conjuntos de datos limitados con esta herramienta única
+
     
 Usages:
     
