@@ -21,6 +21,7 @@ Characterístics:
   multidimensional analysis through a process of exploration
 - Store your data in all the mayors vendors (Drizzle, Firebird
   Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase)
+- **Traducir:** Aprobecha conjuntos de datos limitados con esta herramienta única
 - Powerd by Python
     
     
