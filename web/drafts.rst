@@ -20,14 +20,9 @@ Characterístics:
 - Store your data in all the mayors vendors (Drizzle, Firebird
   Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
 - Powerd by Python
-
-Todavia no aprobadas:
-
 - Allows the creation of user-profile-distance-based networks and their
   multidimensional analysis through a process of exploration
-- **Traducir:** Aprobecha conjuntos de datos limitados con esta herramienta única
-
-    
+  
 Usages:
     
 - Use as library: Integrate your Python app with Yatel, also you can 
