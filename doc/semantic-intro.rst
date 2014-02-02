@@ -7,21 +7,18 @@ Antes que nada los principales participantes de esta documentación
 son **MAG** y **rliberal**, pero cualquier información pertinente a 
 añadir es válida, para cualquier otro participante.
 
-Ale encontré este paper para lo de proceso semántico,
-vamos viendo poniendo cosas en esta página de la wiki
-y luego estructuramos un poco más el concepto:
+Aclaración:
++++++++++++
 
-Papers:
-+++++++
-
-* http://people.aifb.kit.edu/dtr/papers/semsearchprocess.pdf
+Lo que tenemos que hacer con semántica (por ahora) no es un análisis sino la documentación del proceso de obtención de datos electroforéticos y los datos mismos.
+Después quedan abiertas las puertas para empezar el análisis.
 
 Proyecto:
 +++++++++
 
 Este es un extracto del proyecto homologado, la parte semántica.
 
-* Sección "objetivos":
+* Sección "Objetivos":
 
 Implementación en INTA IPAVE de un proceso de documentación de la información relativa a los análisis electroforéticos mediante alguno de los protocolos de representación semántica del conocimiento existentes sobre este tema.
 
@@ -34,3 +31,10 @@ Con el objeto de compartir información y facilitar el análsis de los datos gen
 [11] STANISLAUS R. et al. An open-source representation for 2-DE-centric proteomics and support infrastructure for data storage and analysis. BMC Bioinformatics 9, 4. 2008 (http://www.biomedcentral.com/1471-2105/9/4)
 
 [12] TAYLOR C. F. et al. A systematic approach to modeling,capturing, and disseminating proteomics experimental data. Nat. Biotechnol. 21, 247–254. 2003 (http://www.nature.com/nbt/journal/v21/n3/abs/nbt0303-247.html)
+
+Están todos los archivos cargados en la wiki, pero hay que entrar al esditor para verlos.
+
+Otros Papers:
++++++++++++++
+
+* http://people.aifb.kit.edu/dtr/papers/semsearchprocess.pdf
