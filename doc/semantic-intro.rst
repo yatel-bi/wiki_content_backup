@@ -26,11 +26,17 @@ Implementación en INTA IPAVE de un proceso de documentación de la información
 
 Con el objeto de compartir información y facilitar el análsis de los datos generados en experimentos moleculares, se han desarrollado en los últimos años algunos estándares para la representación, tanto de los resultados, como de los detalles del proceso ejecutado. Estos son MIAPE Gel Electrophoresis guidelines, GelML[10], AGML[11], HUP-ML y PEDRo[12].
 
-[10] GIBSON F. et al. The Gel Electrophoresis Markup Language (GelML) from the Proteomics Standards Initiative. Proteomics 2010, 10, 3073–3081. 2010 (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193076/)
+[10] GIBSON F. et al. The Gel Electrophoresis Markup Language (GelML) from the Proteomics Standards Initiative. Proteomics 2010, 10, 3073–3081. 2010 
+`Ref_10.pdf <http://wiki.getyatel.com.ar/doc/semantic-intro/_attachment/Ref_10.pdf>`_ 
+Sitio oficial: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193076/
 
-[11] STANISLAUS R. et al. An open-source representation for 2-DE-centric proteomics and support infrastructure for data storage and analysis. BMC Bioinformatics 9, 4. 2008 (http://www.biomedcentral.com/1471-2105/9/4)
+[11] STANISLAUS R. et al. An open-source representation for 2-DE-centric proteomics and support infrastructure for data storage and analysis. BMC Bioinformatics 9, 4. 2008
+`Ref_11.pdf <http://wiki.getyatel.com.ar/doc/semantic-intro/_attachment/Ref_11.pdf>`_ 
+Sitio oficial: http://www.biomedcentral.com/1471-2105/9/4
 
-[12] TAYLOR C. F. et al. A systematic approach to modeling,capturing, and disseminating proteomics experimental data. Nat. Biotechnol. 21, 247–254. 2003 (http://www.nature.com/nbt/journal/v21/n3/abs/nbt0303-247.html)
+[12] TAYLOR C. F. et al. A systematic approach to modeling,capturing, and disseminating proteomics experimental data. Nat. Biotechnol. 21, 247–254. 2003
+`Ref_12.pdf <http://wiki.getyatel.com.ar/doc/semantic-intro/_attachment/Ref_12.pdf>`_ 
+Sitio oficial: http://www.nature.com/nbt/journal/v21/n3/abs/nbt0303-247.html
 
 Están todos los archivos cargados en la wiki, pero hay que entrar al esditor para verlos.
 
