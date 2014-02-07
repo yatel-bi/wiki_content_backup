@@ -29,4 +29,4 @@ Para más información dirigirse
 `aquí <http://codeandchaos.wordpress.com/2012/08/09/sphinx-and-numpydoc/>`_  
 y `aca <https://github.com/numpy/numpy/blob/master/doc/example.py>`_ .
 
-`numpydoc guide <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt>`_
+Y aca abajo dejo un link de `numpydoc guide <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt>`_
