@@ -6,6 +6,8 @@ conseguir colaboradores (es un mindstorm asi que pongan lo que les
 paresca en esta lista)
 
 - Logo de yatel (Esto ya lo tenemos).
+- Hacemos nosotros el Flyer? Donde Lo Imprimimos?
+- Podemos meter algo en UNICODE GROUP lo de UTN-KDD como charla?
 - Pegar Banners a color en la facu en los posible al inicio del ciclo lectivo.
   Es decir empezando el mes de abril no al principio, principio.
 - Analisis de datos, bases relacionales, cubos OLAP, Bases MNO (Invento
