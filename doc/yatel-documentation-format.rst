@@ -27,4 +27,4 @@ es aquel que emplea NumPy
 
 Para más información dirigirse 
 `aquí <http://codeandchaos.wordpress.com/2012/08/09/sphinx-and-numpydoc/>`_  
-y `aquí <https://github.com/numpy/numpy/blob/master/doc/example.py>`_ .
+y `aca <https://github.com/numpy/numpy/blob/master/doc/example.py>`_ .
