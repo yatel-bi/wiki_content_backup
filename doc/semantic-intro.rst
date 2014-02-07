@@ -41,7 +41,7 @@ Sitio oficial: http://www.biomedcentral.com/1471-2105/9/4
 `Ref_12.pdf <http://wiki.getyatel.com.ar/doc/semantic-intro/_attachment/Ref_12.pdf>`_ 
 Sitio oficial: http://www.nature.com/nbt/journal/v21/n3/abs/nbt0303-247.html
 
-Están todos los archivos cargados en la wiki, pero hay que entrar al esditor para verlos.
+Están todos los archivos cargados en la wiki, pero hay que entrar al editor para verlos.
 
 Otros Papers:
 +++++++++++++
