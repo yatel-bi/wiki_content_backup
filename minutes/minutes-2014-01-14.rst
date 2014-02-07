@@ -75,6 +75,7 @@ de los presentes de la reunion:
 * Creacion de bases **JBC - Adrian - Roque**. Ver de buscar unas 10 bases de datos e integrarlas con su script a Yatel.
 * Documentacion **rliberal - JBC - Roque**. Documentacion oficial en INGLES.
 * Programacion  **JBC - rliberal - Roque**. Creacion de lenguaje de alto nivel (algo arriba de QBJ), testear.
+* Practicantes: ver **7** la parte en negrita.
 * INTA
     
     * Paper Inta **MAG - Adrian**. Reeveer este topico.
