@@ -19,18 +19,18 @@ Characterístics:
 
 - Store your data in all the mayors vendors (Drizzle, Firebird
   Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
-- Powerd by Python
+- Powered by Python
 - Allows the creation of user-profile-distance-based networks and their
   multidimensional analysis through a process of exploration
   
 Usages:
     
 - Use as library: Integrate your Python app with Yatel, also you can 
-  take advantage of python intercative mode for fast data analisis
-- Remote DB: Deploy yatel as remote MNOlap and comunicate with agnostic 
-  json based query language from any tecnology.
-- Yatel Dashboard: Use the yatel analitics dashboard to analize your data 
-  using a user friendly interface
+  take advantage of Python interactive mode for fast data analysis.
+- Remote DB: Deploy yatel as remote MNOLAP and comunicate with agnostic 
+  JSON based query language from any tecnology.
+- Yatel Dashboard: Use the Yatel analitics dashboard to analize your data 
+  with a user friendly interface.
   
   
   .. [0] http://www.drizzle.org/ | http://www.firebirdsql.org/ |
