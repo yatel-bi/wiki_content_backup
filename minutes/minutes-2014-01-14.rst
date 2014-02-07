@@ -112,6 +112,11 @@ atomicas a corto plazo con el involcramiento del desarrollo de papers.
 Por lo que concluimos que esta forma de trabajo podria ser exitosa para traer practicantes
 al proyecto Yatel.
 
+**Todos los miembros de Yatel son resposables de armar una estrategia
+y buscar practicantes para el proyecto Yatel. Pueden repartirse
+obligaciones pero es deber de TODOS traer practicantes y difundir el
+proyecto en el ambito académico.**
+
 8. Algunas convenciones a tener en cuenta
 +++++++++++++++++++++++++++++++++++++++++
 
