@@ -1,4 +1,4 @@
-.. tags: numpydoc
+.. tags: numpydoc YatelDocFormat
 .. title: Formato de documentación de Yatel
 
 A continuacion se detalla el formato de documentación 
