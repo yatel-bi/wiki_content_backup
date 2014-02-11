@@ -1,8 +1,8 @@
 .. tags: 
 .. title: Reunión Regular 2014-02-11
 
-Temas a Tratar (Cada uno dura 15min)
-------------------------------------
+**Temas a Tratar (Cada uno dura 15min)**
+
 
 - Que se hizo en esta semana
 - Problemas con mercurial
