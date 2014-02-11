@@ -8,5 +8,5 @@
 - Problemas con mercurial
 - Imagenes del comienzo de la webpage (http://wiki.getyatel.com.ar/web/drafts/)
   explicación y presupuesto.
-- Retomando tema de publicidad...
+- Retomando tema de publicidad.
 - Que se va a hacer la semana siguiente.
