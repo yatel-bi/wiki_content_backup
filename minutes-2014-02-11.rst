@@ -1,0 +1,12 @@
+.. tags: 
+.. title: Reunión Regular 2014-02-11
+
+Temas a Tratar (Cada uno dura 15min)
+------------------------------------
+
+- Que se hizo en esta semana
+- Problemas con mercurial
+- Imagenes del comienzo de la webpage (http://wiki.getyatel.com.ar/web/drafts/)
+  explicación y presupuesto.
+- Retomando tema de publicidad.
+- Que se va a hacer la semana siguiente.
