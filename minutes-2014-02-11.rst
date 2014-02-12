@@ -17,7 +17,8 @@
 - Problemas con mercurial
 
 ::
-	-
+	
+    -
 
 
 - Imagenes del comienzo de la webpage (http://wiki.getyatel.com.ar/web/drafts/)
@@ -47,6 +48,10 @@
     Armar almenos una DB.
     
     
+- Otros
 
+::
+
+	Avisarle a Ayelen que venga una reunion para aprobechar sus datos y pedirle un paper
     
     
