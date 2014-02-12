@@ -5,8 +5,48 @@
 
 
 - Que se hizo en esta semana
+
+::
+
+	Hubo cursito de mercurial
+    Rodrigo termino la documentación de ``yatel.db``
+    Se escribio un mini tutp de ``yatel.typeconv`` http://wiki.getyatel.com.ar/doc/notas-rodrigo/
+    Se escribio un par de mails con presupuestos
+    
+    
 - Problemas con mercurial
+
+::
+	-
+
+
 - Imagenes del comienzo de la webpage (http://wiki.getyatel.com.ar/web/drafts/)
   explicación y presupuesto.
+  
+::
+
+    http://wiki.getyatel.com.ar/web/drafts/ << corregidos caracteristicas se borro slogan y cambiamos nombre dashboard to khani
+    
+    
 - Retomando tema de publicidad.
+
+::
+	La charla es lo mas importante
+    Hay que seguir con el flyer http://wiki.getyatel.com.ar/recruitment/flyer2014/
+    Se pueden conseguir becas (un becario por proyecto)
+    PPS
+	
+
 - Que se va a hacer la semana siguiente.
+
+::
+	
+    Ya perdile primer bocetos del diseño
+    Definir el contenido del flyer
+    Armar una planificación
+    Armar almenos una DB.
+    
+    
+
+    
+    
