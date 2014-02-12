@@ -27,6 +27,7 @@
 ::
 
     http://wiki.getyatel.com.ar/web/drafts/ << corregidos caracteristicas se borro slogan y cambiamos nombre dashboard to khani
+    Se elige el presupuesto presentado por paula que ya nos dio los diseños originales
     
     
 - Retomando tema de publicidad.
