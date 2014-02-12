@@ -29,8 +29,8 @@ Usages:
   take advantage of Python interactive mode for fast data analysis.
 - Remote DB: Deploy yatel as remote MNOLAP and comunicate with agnostic 
   JSON based query language from any tecnology.
-- Yatel Dashboard: Use the Yatel analitics dashboard to analize your data 
-  with a user friendly interface.
+- Yatel Kahni: Use the Yatel kahni to analize your data 
+  with an user friendly interface.
   
   
   .. [0] http://www.drizzle.org/ | http://www.firebirdsql.org/ |
