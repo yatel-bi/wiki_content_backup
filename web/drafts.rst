@@ -13,15 +13,15 @@ Copie de aca: http://www.pentaho.com/
 DRAFT
 -----
 
-**Slogan:** A Cutting Edge Platform for Data Integration & Business Analytics
 
 Characterístics:
 
-- Store your data in all the mayors vendors (Drizzle, Firebird
-  Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
-- Powered by Python
-- Allows the creation of user-profile-distance-based networks and their
-  multidimensional analysis through a process of exploration
+1. Ve tus datos como redes definidas segun tus necesidades.
+2. Use as wherehouse all the mayors DB vendors (Drizzle, Firebird
+   Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
+3. Dinamically explore your networks.
+4. Powered by Python
+
   
 Usages:
     
