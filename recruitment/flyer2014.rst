@@ -7,6 +7,7 @@ Version Final
 - Grupo de Minería de Datos busca alumnos, practicantes y becarios
 - Te interesan las bases de datos y el bussines intelligence?
 - Te interesa participar en un proyecto unico?
+- Podes ayudar, programando, documentando o traduciendo!
 - Contactate con nosotros al contacto@tuvieja.com
 - Para leer mas de la llamada fijate en: `Busqueda 2014 </press/recruitment2014>`_
 
