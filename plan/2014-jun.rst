@@ -1,0 +1,28 @@
+.. tags: 
+.. title: Plan de tareas para 1S/2014
+
+Esto es lo que nos comprometimos en la primer reunión
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Paper Juan - Ale
+- Creacion de bases - Juan - Adrian - Roque
+- Documentacion Rodrigo - Juan - Roque
+- Programacion  Juan - Rodrigo - Roque
+- INTA
+    - paper inta Ale - Adrian
+    - base de datos compartida Ale - Juan
+    - proceso semantico Ale Rodrigo
+    - analisis datos nuevos Ale - Adrian
+    
+Contratos
++++++++++
+
+**Juan:** 
+    - Va a estar finalizada la version *0.3* de yatel, lo cual involucra
+      las funcionalidades extras tal cual estan y la implementacion de
+      todas las funciones de QBJ que se mencionan en este
+      `link </dev/qubjfunctions/>`_ y las validaciones de json-schema
+    - Va estar listo el paper de yatel
+    - Van a estar terminadas 10 bases de datos en formato YJF para 
+      distribuir con su correspondiente README para saber que 
+      demonios tiene adentro.
