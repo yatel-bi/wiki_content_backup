@@ -8,7 +8,7 @@ Version Final
 - Te interesan las bases de datos y el bussines intelligence?
 - Te interesa participar en un proyecto unico?
 - Contactate con nosotros al contacto@tuvieja.com
-- Para leer mas de la llamada fijate en:
+- Para leer mas de la llamada fijate en: `Busqueda 2014 </press/recruitment2014>`_
 
 Notas
 +++++
