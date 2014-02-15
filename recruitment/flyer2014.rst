@@ -1,6 +1,18 @@
 .. tags: publicidad, pps, recruitment
 .. title: Flyer para Publicitar el Grupo
 
+Version Final
++++++++++++++
+
+- Grupo de Minería de Datos busca alumnos, practicantes y becarios
+- Te interesan las bases de datos y el bussines intelligence?
+- Te interesa participar en un proyecto unico?
+- Contactate con nosotros al contacto@tuvieja.com
+- Para leer mas de la llamada fijate en:
+
+Notas
++++++
+
 En esta página la idea es poner que queremos que tenga el flyer para 
 conseguir colaboradores (es un mindstorm asi que pongan lo que les 
 paresca en esta lista)
