@@ -21,9 +21,9 @@ Armar una planificación
 	
     http://wiki.getyatel.com.ar/plan/2014-jun/
     
-	Juan *Done*
-    Rodrigo (te esperamos hasta el viernes)
-    Ale Done
+	- Juan *Done*
+    - Rodrigo (te esperamos hasta el viernes)
+    - Ale Done
 
 
 Armar almenos una DB
