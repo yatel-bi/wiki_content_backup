@@ -46,9 +46,14 @@ Paper de yatel
     
 Para la semana que viene
 
-	Ale leer paper de astropy
-    Juan y Ale ponen fechas a su plan
-    
+	- **Ale** leer paper de astropy
+    - **Juan** y **Ale** ponen fechas a su plan
+    - **Juan** hace otra DB
+    - Hacer una lista de db a publicar
+    - **Juan** Tener listas las 4 imagenes para de la pagina web
+    - **Ale** Hacer un historial de exploración en una wiki
+    - **Juan** restrurar la wiki
+
     
     
 
