@@ -1,4 +1,4 @@
-.. tags:
+.. tags: semantic
 .. title: Cosas a tener en cuenta para el análisis del proceso semántico.
 
 **ESTO ES UN DRAFT**

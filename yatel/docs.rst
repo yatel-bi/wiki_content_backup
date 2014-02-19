@@ -1,4 +1,4 @@
-.. tags:
+.. tags: docs
 .. title: Draft sobre lo que se va a documentar de yatel
 
 En esta pagina el proposito es completarla para ver

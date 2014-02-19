@@ -1,4 +1,4 @@
-.. tags:
+.. tags: install, deploy
 .. title: Instalacion Yatel y Sphinx con NumpyDoc
 
 
