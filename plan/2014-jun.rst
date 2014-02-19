@@ -26,3 +26,27 @@ Contratos
     - Van a estar terminadas 10 bases de datos en formato YJF para 
       distribuir con su correspondiente README para saber que 
       demonios tiene adentro.
+      
+**MAG:**
+	- Análisis de datos nuevos (30/04/2014)
+    	- Análisis exploratorio (//)
+        - Análisis de resdes idem anteriores (//)
+        - Análisis de resultados de K-mean (//)
+    - Paper INTA (30/06/2014)
+   		- Presentación de resultado a Paz (30/04/2014)
+        - Boceto
+        - Primer versión
+        - Versión final
+    - Proceso semántico (30/06/2014)
+    	- Lectura de artículos y documentación
+        - Análisis de proceso INTA (con el INTA)
+        - Diseño y carga
+        - Publicación (Segundo semestre)
+    - Base de datos compartidas (30/06/2014)
+    	- Diseño
+        - Definición de motor y host
+        - Puesta en producción
+        - Definición y carga de usuarios
+        - Carga de datos INTA IPAVE y redes
+        - Publicación (Segundo semestre)
+        
