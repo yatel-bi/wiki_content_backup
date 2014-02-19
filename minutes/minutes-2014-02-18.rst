@@ -12,22 +12,49 @@ Temas a Tratar (Cada uno dura 15min)
       no tienen nada que ver con la trama
 
 
-**Definir el contenido del flyer**
+Definir el contenido del flyer
 
 	DONE
-    
-Armar una planificación
 
-	Juan Done
+
+Armar una planificación
+	
+    http://wiki.getyatel.com.ar/plan/2014-jun/
+    
+	Juan *Done*
     Rodrigo (te esperamos hasta el viernes)
+    Ale Done
+
 
 Armar almenos una DB
 	
     Done `Padron AFIP <https://bitbucket.org/yatel/dbs/src/tip/padron_afip/>`_
 
+
+
 Avisarle a Ayelen que venga una reunion para aprobechar sus datos y pedirle un paper ?
     
-    Acepto nunca respondio la invación de venir
+    Acepto Participar nunca respondio la invación de venir
+    
+
+Paper de yatel
+
+	Lo hacemos un draft en español
+    Tratamos de publicarlo en ingles en el segundo semenstre
+    Sino mandamos a algo mas choto
+    
+    
+Para la semana que viene
+
+	Ale leer paper de astropy
+    Juan y Ale ponen fechas a su plan
+    
+    
+    
+
+
+
+
 
 
 	
