@@ -1,22 +1,5 @@
 .. tags: tuto, typeconv, ejemplos
-.. title: Notas para desarrollo
-
-Como crear una red de prueba
-++++++++++++++++++++++++++++
-
-Desde consola se puede crear una red con  el comando ``fake-network``
-
-::
-
-    $ yatel --database sqlite:///fake_db.db --mode w --fake-network 25 50 ham
-    
-Luego desde Python se puede leer la db de la siguiente forma.
-
-.. code-block:: python
-
-	In [1]: from yatel import db
-    In [2]: nw = db.YatelNetwork(**db.parse_uri("sqlite:///fake_db.db"))
-
+.. title: Notas sobre modulos para el desarrollo
 
 
 ``yatel.typeconv``
@@ -24,14 +7,14 @@ Luego desde Python se puede leer la db de la siguiente forma.
 
 La idea de este módulo es convertir todos los tipos de datos
 soportados por yatel a unos tipos mas simples (con informacion de su
-tipo original) para que puedan ser persistidos en un json. 
+tipo original) para que puedan ser persistidos en un json.
 
 donde se usa?
 
 - Para persisitir las redes de manera agnostica a la base de datos
   (ya sabemos que los sql son diferentes en diferentes motores)
   y generar el formato YJF (Yatel JSON Format)
-- Para trasmitir queries y resultados en QBJ (Query By JSON) 
+- Para trasmitir queries y resultados en QBJ (Query By JSON)
 
 Por ejemplo si imaginamos un tipo de dato que no puede persistirse en yatel
 onda la fecha actual typeconv funcionaría asi
@@ -43,7 +26,7 @@ onda la fecha actual typeconv funcionaría asi
     In [5]: now = datetime.datetime.now()
     In [6]: typeconv.simplifier(now)
     Out[6]: {'type': 'datetime', 'value': '2014-02-09T13:56:50.870024'}
-    
+
 Como se ve la fecha se guarda con ``simplifier`` en un formato unicode pero guarda una
 llave que se llama *type* que indica que eso no es un texto sino un datetime.
 
@@ -51,21 +34,21 @@ Para datos mas simples por cuestiones de uniformidad hace lo mismo
 por ejemplo si usamos algo que si puede persistirse en json como un int, str o unicode
 
 .. code-block:: python
-    
+
     In [7]: typeconv.simplifier(1)
     Out[7]: {'type': 'int', 'value': 1}
-    
+
     In [8]: typeconv.simplifier("fooo")
     Out[8]: {'type': 'unicode', 'value': u'fooo'}
-    
+
     In [9]: typeconv.simplifier(u"fooo")
     Out[9]: {'type': 'unicode', 'value': u'fooo'}
-    
+
     In [10]: typeconv.simplifier(True)
     Out[10]: {'type': 'bool', 'value': True}
 
-    
-Cosas a notar, por cuestiones de uniformidad, tanto string como unicode se persiste como 
+
+Cosas a notar, por cuestiones de uniformidad, tanto string como unicode se persiste como
 unicode, y bueno int y boolean como int.
 
 Tambien funciona con tipos mas complejos como listas, tuplas, diccionarios, sets y frozensets
@@ -73,7 +56,7 @@ Tambien funciona con tipos mas complejos como listas, tuplas, diccionarios, sets
 .. code-block:: python
 
     In [12]: typeconv.simplifier([1,2,3])
-    Out[12]: 
+    Out[12]:
     {'type': 'list',
         'value': [{'type': 'int', 'value': 1},
         {'type': 'int', 'value': 2},
@@ -101,7 +84,7 @@ y transformarlo con type conv. Por ejemplo con un Fact
 
     In [8]: fact = list(nw.haplotypes())[0] # sloooow
     In [9]: typeconv.simplifier(fact)
-    Out[9]: 
+    Out[9]:
       {'type': 'Haplotype',
        'value': {u'color': {'type': 'unicode', 'value': u'y'},
         u'description': {'type': 'unicode',
