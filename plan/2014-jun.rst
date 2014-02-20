@@ -52,15 +52,15 @@ Contratos
         
 **rliberal:** 
 	- Documentacion
-    	- En la version finalizada **0.3** de Yatel va a ir 
-      	incluida toda la doc en numpy format - rst en el realease, 
-      	la doc debe estar completa y con ejemplos entendibles.
-        (quedan a coordinar fechas con **JBC**)
+    		- En la version finalizada **0.3** de Yatel va a ir 
+      		incluida toda la doc en numpy format - rst en el realease, 
+      		la doc debe estar completa y con ejemplos entendibles.
+        	(quedan a coordinar fechas con **JBC**)
     - Testing
-    	- Se va a realizar testeo de los ejemplos documentados y
-      	testeos pertinentes de Yatel **0.3** que 
-        **JBC** o **MAG** consideren pertinentes.
-        (quedan a coordinar fechas con **JBC**)
+    		- Se va a realizar testeo de los ejemplos documentados y
+      		testeos pertinentes de Yatel **0.3** que 
+        	**JBC** o **MAG** consideren pertinentes.
+        	(quedan a coordinar fechas con **JBC**)
     - Proceso semantico
     	- Luego de finalizar los turnos de exámenes juntarme con
         **MAG** y empezar a trabajar en eso. Con una previa explicacion
