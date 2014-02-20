@@ -33,8 +33,13 @@ Usages:
   with an user friendly interface.
 
 
-  .. [0] http://www.drizzle.org/ | http://www.firebirdsql.org/ |
-         http://www.mysql.com/ | http://es.wikipedia.org/wiki/Oracle_Database |
-         http://www.microsoft.com/es-xl/sqlserver/default.aspx |
-         http://www.postgresql.org/ | http://www.sqlite.org/ |
-         http://es.wikipedia.org/wiki/Sybase
+
+**Imagenes**
+
+.. image:: http://wiki.getyatel.com.ar/yatel/web_drafts/_attachment/screen4.jpg
+
+.. [0]  http://www.drizzle.org/ | http://www.firebirdsql.org/ |
+        http://www.mysql.com/ | http://es.wikipedia.org/wiki/Oracle_Database |
+        http://www.microsoft.com/es-xl/sqlserver/default.aspx |
+        http://www.postgresql.org/ | http://www.sqlite.org/ |
+        http://es.wikipedia.org/wiki/Sybase
