@@ -50,3 +50,10 @@ Contratos
         - Carga de datos INTA IPAVE y redes
         - Publicación (Segundo semestre)
         
+**rliberal:** 
+	- En la version finalizada **0.3** de Yatel va a ir 
+      incluida toda la doc en numpy format - rst en el realease, 
+      la doc debe estar completa y con ejemplos entendibles.
+    - Se va a realizar testeo de los ejemplos documentados y
+      testeos pertinentes de yatel que Juan o Ale consideren 
+      pertinentes.
