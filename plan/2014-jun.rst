@@ -58,9 +58,9 @@ Contratos
         	(quedan a coordinar fechas con **JBC**)
     - Testing
     	- Se va a realizar testeo de los ejemplos documentados y
-      		testeos pertinentes de Yatel **0.3** que 
-        	**JBC** o **MAG** consideren pertinentes.
-        	(quedan a coordinar fechas con **JBC**)
+      	  testeos pertinentes de Yatel **0.3** que 
+          **JBC** o **MAG** consideren pertinentes.
+          (quedan a coordinar fechas con **JBC**)
     - Proceso semantico
     	- Luego de finalizar los turnos de exámenes juntarme con
         	**MAG** y empezar a trabajar en eso. Con una previa explicacion
