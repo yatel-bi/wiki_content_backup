@@ -69,14 +69,14 @@ Contratos
     - Busqueda de Practicantes  
     	- Tener (haber buscado) al menos 2 practicantes para inicio de Abril.
         - Coordinar con **JBC** y **MAG** las duties de los practicantes.
-          	(recordemos que tienen 200 hs de trabajo)
+          (recordemos que tienen 200 hs de trabajo)
         - Colaborar con los practicantes dandole facilities para
-          	completar sus informes de las PS.
+          completar sus informes de las PS.
     - Programacion
     	- Tener un nivel regular y aceptable en Python para ayudar
-        	a **JBC** y **MAG** con la programacion de Yatel.
-        	(inicio de aprendizaje de Python con horas dedicadas luego
-        	de finalizar los turnos de examen de marzo y aprobar IA)
+          a **JBC** y **MAG** con la programacion de Yatel.
+          (inicio de aprendizaje de Python con horas dedicadas luego
+          de finalizar los turnos de examen de marzo y aprobar IA)
     - Extras
     	- Estar recibido a fines de semestre. Proyecto Final, firmado.
         
