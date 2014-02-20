@@ -53,9 +53,9 @@ Contratos
 **rliberal:** 
 	- Documentacion
     	- En la version finalizada **0.3** de Yatel va a ir 
-      		incluida toda la doc en numpy format - rst en el realease, 
-      		la doc debe estar completa y con ejemplos entendibles.
-        	(quedan a coordinar fechas con **JBC**)
+      	  incluida toda la doc en numpy format - rst en el realease, 
+          la doc debe estar completa y con ejemplos entendibles.
+          (quedan a coordinar fechas con **JBC**)
     - Testing
     	- Se va a realizar testeo de los ejemplos documentados y
       	  testeos pertinentes de Yatel **0.3** que 
@@ -63,9 +63,9 @@ Contratos
           (quedan a coordinar fechas con **JBC**)
     - Proceso semantico
     	- Luego de finalizar los turnos de exámenes juntarme con
-        	**MAG** y empezar a trabajar en eso. Con una previa explicacion
-        	o tutorial del objetivo e ir leyendo articulos y discutirlos
-        	con **MAG**.(30/06/2014)
+          **MAG** y empezar a trabajar en eso. Con una previa explicacion
+           o tutorial del objetivo e ir leyendo articulos y discutirlos
+           con **MAG**.(30/06/2014)
     - Busqueda de Practicantes  
     	- Tener (haber buscado) al menos 2 practicantes para inicio de Abril.
         - Coordinar con **JBC** y **MAG** las duties de los practicantes.
