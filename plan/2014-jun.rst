@@ -52,7 +52,7 @@ Contratos
         
 **rliberal:** 
 	- Documentacion
-    		- En la version finalizada **0.3** de Yatel va a ir 
+    	- En la version finalizada **0.3** de Yatel va a ir 
       		incluida toda la doc en numpy format - rst en el realease, 
       		la doc debe estar completa y con ejemplos entendibles.
         	(quedan a coordinar fechas con **JBC**)
