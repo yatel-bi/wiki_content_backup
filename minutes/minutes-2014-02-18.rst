@@ -53,6 +53,8 @@ Para la semana que viene
     - **Juan** Tener listas las 4 imagenes para de la pagina web
     - **Ale** Hacer un historial de exploración en una wiki
     - **Juan** restrurar la wiki
+    - **rliberal** hablar con **JBC** de nuevos modulos a documentar
+    - **rliberal** documentar xx.py y xx.py
 
     
     
