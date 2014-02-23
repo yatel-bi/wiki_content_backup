@@ -36,7 +36,7 @@ Usages:
 
 **Imagenes**
 
-.. image:: http://wiki.getyatel.com.ar/yatel/web_drafts/_attachment/screen4.jpg
+`imagenes.zip <http://wiki.getyatel.com.ar/yatel/web_drafts/_attachment/imagenes.zip>`_
 
 .. [0]  http://www.drizzle.org/ | http://www.firebirdsql.org/ |
         http://www.mysql.com/ | http://es.wikipedia.org/wiki/Oracle_Database |
