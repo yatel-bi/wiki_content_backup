@@ -29,14 +29,14 @@ Contratos
       
 **MAG:**
 	- Análisis de datos nuevos (30/04/2014)
-    	- Análisis exploratorio (//)
-        - Análisis de resdes idem anteriores (//)
-        - Análisis de resultados de K-mean (//)
+    	- Análisis exploratorio (11/03/2013)
+        - Análisis de resdes idem anteriores (25/03/2013)
+        - Análisis de resultados de K-mean (08/04/2013)
     - Paper INTA (30/06/2014)
    		- Presentación de resultado a Paz (30/04/2014)
-        - Boceto
-        - Primer versión
-        - Versión final
+        - Boceto (13/05/2013)
+        - Primer versión (27/05/2013)
+        - Versión final (//)
     - Proceso semántico (30/06/2014)
     	- Lectura de artículos y documentación
         - Análisis de proceso INTA (con el INTA)
