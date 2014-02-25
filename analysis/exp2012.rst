@@ -3,9 +3,11 @@
 
 **1) Distribución por año**
 
-SELECT year, count( * ) AS cant
-FROM facts
-GROUP BY year
+.. code-block:: sql
+
+    SELECT year, count(*) AS cant
+    FROM facts
+    GROUP BY year
 
 year 	cant
 1 	1 ---------> Error
@@ -28,9 +30,11 @@ year 	cant
 
 **2) Error en año 1**
 
-SELECT *
-FROM facts
-WHERE year =1
+.. code-block:: sql
+
+    SELECT *
+    FROM facts
+    WHERE year = 1
 
 id 	hap_id 	year 	localidad 	region 	hospedante 	campania 	comentario
 431 	5 	1 	TV 	Valle de Altura 	M 	1999 - 2000 	1
@@ -39,15 +43,19 @@ id 	hap_id 	year 	localidad 	region 	hospedante 	campania 	comentario
 
 Buscando en datos antiguos se determina que el año correcto para el fact con id=431 es 2000. Entonces:
 
-UPDATE facts
-SET year = 2000
-WHERE id = 431
+.. code-block:: sql
+
+    UPDATE facts
+    SET year = 2000
+    WHERE id = 431
 
 **4) Distribución por año con error corregido**
 
-SELECT year, count( * ) AS cant
-FROM facts
-GROUP BY year
+.. code-block:: sql
+
+    SELECT year, count(*) AS cant
+    FROM facts
+    GROUP BY year
 
 year 	cant
 1990 	2
@@ -69,9 +77,11 @@ year 	cant
 
 **5) Distribución por campaña**
 
-SELECT campania, count( * ) AS cant
-FROM facts
-GROUP BY campania
+.. code-block:: sql
+
+    SELECT campania, count(*) AS cant
+    FROM facts
+    GROUP BY campania
 
 1989 - 1990 	2
 1989 - 1999 	1
@@ -92,9 +102,11 @@ GROUP BY campania
 
 **6) Distribución por localidad**
 
-SELECT localidad, count( * ) AS cant
-FROM facts
-GROUP BY localidad
+.. code-block:: sql
+
+    SELECT localidad, count(*) AS cant
+    FROM facts
+    GROUP BY localidad
 
 
 localidad 	cant
@@ -129,9 +141,11 @@ VT 	1
 
 **7) Distribución por región**
 
-SELECT region, count( * ) AS cant
-FROM facts
-GROUP BY region
+.. code-block:: sql
+
+    SELECT region, count(*) AS cant
+    FROM facts
+    GROUP BY region
 
 Endémica 			171
 Este de Endémica 	3
@@ -143,9 +157,11 @@ Valle de Altura 	37
 
 **8) Distribución por hospedante**
 
-SELECT hospedante, count( * ) AS cant
-FROM facts
-GROUP BY hospedante
+.. code-block:: sql
+
+    SELECT hospedante, count(*) AS cant
+    FROM facts
+    GROUP BY hospedante
 
 A 	9
 C 	6
