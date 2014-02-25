@@ -10,6 +10,8 @@ no va a tener mucho mas que eso pero:
 
 Copie de aca: http://www.pentaho.com/
 
+**VERSION EN DESARROLLO** https://dl.dropboxusercontent.com/u/6952651/yatel_web/index.html
+
 DRAFT
 -----
 
