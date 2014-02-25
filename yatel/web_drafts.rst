@@ -16,10 +16,10 @@ DRAFT
 
 Characterístics:
 
-1. Ve tus datos como redes definidas segun tus necesidades.
-2. Use as wherehouse all the mayors DB vendors (Drizzle, Firebird
+1. Access your data as a network defined according to your needs.
+2. Use as warehouse all the mayors DB vendors (Drizzle, Firebird
    Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite and Sybase) [0]_
-3. Dinamically explore your networks.
+3. Dynamically explore your networks.
 4. Powered by Python
 
 
