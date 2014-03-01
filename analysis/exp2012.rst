@@ -1,7 +1,7 @@
-.. tags: 
+.. tags: analisys
 .. title: Exploración de datos 2012
 
-**1) Distribución por año**
+**1.1) Distribución por año**
 
 .. code-block:: sql
 
@@ -9,14 +9,29 @@
     FROM facts
     GROUP BY year
 
-
 .. csv-table:: Distribución por año
-   :header: "year", "cant"
-   :url: http://wiki.getyatel.com.ar/analysis/exp2012/_attachment/dist_year_01.csv
+    :header: año, distribución
+
+    1,1 ---------> Error
+    1990,2
+    1991,6
+    1992,7
+    1993,18
+    1994,6
+    1996,11
+    1997,18
+    1999,2
+    2000,19
+    2001,8
+    2002,27
+    2003,15
+    2004,71
+    2009,18
+    2011,117
+    2012,32
 
 
-
-**2) Error en año 1**
+**1.2) Error en año 1**
 
 .. code-block:: sql
 
@@ -25,13 +40,12 @@
     WHERE year = 1
 
 .. csv-table:: Error en año 1
-   :header: "id", "hap_id", "year", "localidad", "region", "hospedante", "campania", "comentario"
-   :url: http://wiki.getyatel.com.ar/analysis/exp2012/_attachment/error_year1_01.csv
+    :header: id, hap_id, year, localidad, region, hospedante, campania, comentario
+
+    431,5,1,TV,Valle de Altura,M,1999 - 2000,1
 
 
-
-
-**3) Corrección de error**
+**1.3) Corrección de error**
 
 Buscando en datos antiguos se determina que el año correcto para el fact con id=431 es 2000. Entonces:
 
@@ -41,7 +55,8 @@ Buscando en datos antiguos se determina que el año correcto para el fact con id
     SET year = 2000
     WHERE id = 431
 
-**4) Distribución por año con error corregido**
+
+**1.4) Distribución por año con error corregido**
 
 .. code-block:: sql
 
@@ -49,28 +64,28 @@ Buscando en datos antiguos se determina que el año correcto para el fact con id
     FROM facts
     GROUP BY year
 
-==== ====
-year cant
-==== ====
-1990 2
-1991 6
-1992 7
-1993 18
-1994 6
-1996 11
-1997 18
-1999 2
-2000 20
-2001 8
-2002 27
-2003 15
-2004 71
-2009 18
-2011 117
-2012 32
-==== ====
+.. csv-table:: Distribución por año
+    :header: año, distribución
 
-**5) Distribución por campaña**
+    1990,2
+    1991,6
+    1992,7
+    1993,18
+    1994,6
+    1996,11
+    1997,18
+    1999,2
+    2000,20
+    2001,8
+    2002,27
+    2003,15
+    2004,71
+    2009,18
+    2011,117
+    2012,32
+
+
+**2.1) Distribución por campaña**
 
 .. code-block:: sql
 
@@ -78,28 +93,81 @@ year cant
     FROM facts
     GROUP BY campania
 
-=========== ====
-campania    cant
-=========== ====
-1989 - 1990 2
-1989 - 1999 1 ----> Error
-1990 - 1991 6
-1991 - 1992 7
-1992 - 1993 18
-1993 - 1994 6
-1996 - 1997 24
-1997 - 1998 5
-1999 - 2000 21
-2000 - 2001 8
-2001 - 2002 26
-2002 - 2003 16
-2003 - 2004 71
-2008 - 2009 18
-2010 - 2011 117
-2011 - 2012 32
-=========== ====
+.. csv-table:: Distribución por campaña
+   :header: "campania", "cant"
 
-**6) Distribución por localidad**
+    1989 - 1990,2
+    1989 - 1999,1 ----> Error
+    1990 - 1991,6
+    1991 - 1992,7
+    1992 - 1993,18
+    1993 - 1994,6
+    1996 - 1997,24
+    1997 - 1998,5
+    1999 - 2000,21
+    2000 - 2001,8
+    2001 - 2002,26
+    2002 - 2003,16
+    2003 - 2004,71
+    2008 - 2009,18
+    2010 - 2011,117
+    2011 - 2012,32
+
+
+**2.2) Error en campaña 1989 - 1999**
+
+.. code-block:: sql
+
+    SELECT *
+    FROM facts
+    WHERE campania = "1989 - 1999"
+
+.. csv-table:: Error campaña 1989 - 1999
+    :header: id, hap_id, year, localidad, region, hospedante, campania, comentario
+
+	439,5,1999,RC,Endémica,M,1989 - 1999,TE
+
+
+**2.3) Corrección de error**
+
+Buscando en datos antiguos se determina que el año correcto para el fact con id=439 es "1989 - 1990". Entonces:
+
+.. code-block:: sql
+
+    UPDATE facts
+    SET campania = "1989 - 1990"
+    WHERE id = 439
+
+
+**2.4) Distribución por campaña con error corregido**
+
+.. code-block:: sql
+
+    SELECT campania, count(*) AS cant
+    FROM facts
+    GROUP BY campania
+
+.. csv-table:: Distribución por campaña
+   :header: "campania", "cant"
+
+    1989 - 1990,3
+    1990 - 1991,6
+    1991 - 1992,7
+    1992 - 1993,18
+    1993 - 1994,6
+    1996 - 1997,24
+    1997 - 1998,5
+    1999 - 2000,21
+    2000 - 2001,8
+    2001 - 2002,26
+    2002 - 2003,16
+    2003 - 2004,71
+    2008 - 2009,18
+    2010 - 2011,117
+    2011 - 2012,32
+
+
+**3.1) Distribución por localidad**
 
 .. code-block:: sql
 
@@ -107,40 +175,40 @@ campania    cant
     FROM facts
     GROUP BY localidad
 
-========= ====
-localidad cant
-========= ====
-AC        18
-AG 	      1
-E 	      14
-EF 	      3
-F 		  2
-GP 		  27
-H 		  5
-HA 		  22
-HL 		  2
-HR 		  12
-JM 		  42
-LP 		  3
-LQ 		  17
-MB 		  1
-MF 		  3
-NB 		  4
-P 		  20
-RC 	      78
-S 		  38
-SP 		  5
-SU 		  5
-T 		  5
-TL 		  2
-TV 		  37
-V 		  3
-VM 		  2
-VR 		  6
-VT 		  1
-========= ====
+.. csv-table:: Distribución por localidad
+   :header: "localidad", "cant"
+   
+    AC,18
+    AG,1
+    E,14
+    EF,3
+    F,2
+    GP,27
+    H,5
+    HA,22
+    HL,2
+    HR,12
+    JM,42
+    LP,3
+    LQ,17
+    MB,1
+    MF,3
+    NB,4
+    P,20
+    RC,78
+    S,38
+    SP,5
+    SU,5
+    T,5
+    TL,2
+    TV,37
+    V,3
+    VM,2
+    VR,6
+    VT,1
 
-**7) Distribución por región**
+
+**4.1) Distribución por región**
 
 .. code-block:: sql
 
@@ -148,19 +216,19 @@ VT 		  1
     FROM facts
     GROUP BY region
 
-================ ====
-region           cant
-================ ====
-Endémica 		 171
-Este de Endémica 3
-NorEste Endémica 10
-Norte Endémica 	 53
-Sur de Núcleo 	 43
-Sur Endémica 	 61
-Valle de Altura  37
-================ ====
+.. csv-table:: Distribución por región
+   :header: "region", "cant"
 
-**8) Distribución por hospedante**
+    Endémica,171
+    Este de Endémica,3
+    NorEste Endémica,10
+    Norte Endémica,53
+    Sur de Núcleo,43
+    Sur Endémica,61
+    Valle de Altura,37
+
+
+**5.1) Distribución por hospedante**
 
 .. code-block:: sql
 
@@ -168,16 +236,15 @@ Valle de Altura  37
     FROM facts
     GROUP BY hospedante
 
-========== ====
-hospedante cant
-========== ====
-A 		   9
-C 		   6
-CC 		   1
-CE 		   2
-M 		   318
-T 		   6
-TC 		   1
-TT 		   3
-XX 		   32 ----> ????
-========== ====
+.. csv-table:: Distribución por hospedante
+   :header: "hospedante", "cant"
+
+    A,9
+    C,6
+    CC,1
+    CE,2
+    M,318
+    T,6
+    TC,1
+    TT,3
+    XX,32 ----> ????
