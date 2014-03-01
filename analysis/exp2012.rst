@@ -9,27 +9,11 @@
     FROM facts
     GROUP BY year
 
-====  ====
-year  cant
-====  ====
-1     1 ---------> Error
-1990  2
-1991  6
-1992  7
-1993  18
-1994  6
-1996  11
-1997  18
-1999  2
-2000  19
-2001  8
-2002  27
-2003  15
-2004  71
-2009  18
-2011  117
-2012  32
-====  ====
+
+.. csv-table:: Distribución por año
+   :header: "year", "cant"
+   :url: http://wiki.getyatel.com.ar/analysis/exp2012/_attachment/dist_year_01.csv
+
 
 
 **2) Error en año 1**
@@ -40,11 +24,12 @@ year  cant
     FROM facts
     WHERE year = 1
 
-=== ====== ==== ========= =============== ========== =========== ==========
-id  hap_id year localidad region	      hospedante campania    comentario
-=== ====== ==== ========= =============== ========== =========== ==========
-431 5      1 	TV        Valle de Altura M          1999 - 2000 1
-=== ====== ==== ========= =============== ========== =========== ==========
+.. csv-table:: Error en año 1
+   :header: "id", "hap_id", "year", "localidad", "region", "hospedante", "campania", "comentario"
+   :url: http://wiki.getyatel.com.ar/analysis/exp2012/_attachment/error_year1_01.csv
+
+
+
 
 **3) Corrección de error**
 
