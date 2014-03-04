@@ -4,6 +4,6 @@
 En esta wiki usted podra encontrar documentos informales para el uso
 de Yatel
 
-:homepage: http://getyatel.com.ar
-:forum: http://forum.getyatel.com.ar
+:homepage: http://getyatel.org
+:forum: http://forum.getyatel.org
 :utn: http://frc.utn.edu.ar
