@@ -130,7 +130,7 @@ Buscando en datos antiguos se determina que el año correcto para el fact con id
 
 **2.3) Corrección de error**
 
-Buscando en datos antiguos se determina que el año correcto para el fact con id=439 es "1989 - 1990". Entonces:
+Buscando en datos antiguos se determina que la campaña correcta para el fact con id=439 es "1989 - 1990". Entonces:
 
 .. code-block:: sql
 
