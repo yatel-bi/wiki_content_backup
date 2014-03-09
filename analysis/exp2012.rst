@@ -321,5 +321,30 @@ Los hospedantes "XX" se corresponden con las 32 muestras de la última campaña 
     29,1
     30,1
 
+    
+**7.1) Evolución de los número de haplotipos**
+
+El primer lote de datos tuvo 211 muestras y 21 haplotipos. 
+Después aparecieron nuevos haplotipos de esta forma:
+
+.. csv-table:: Distribución por haplotipo
+   :header: "year" ,"cant" , "acum", "comentario"
+    
+    1990,2,2,
+    1991,6,8,
+    1992,7,15,
+    1993,18,33,
+    1994,6,39,
+    1996,11,50,
+    1997,18,68,
+    1999,2,70,
+    2000,20,90,
+    2001,8,98,
+    2002,27,125,
+    2003,15,140,
+    2004,71,211,"21 haplotipos"
+    2009,18,229,"+1 (id 22)"
+    2011,117,346,"+5 (id 23, 24, 25, 26, 27, 28)"
+    2012,32,378,"+2 (id 29, 30)"
 
     
