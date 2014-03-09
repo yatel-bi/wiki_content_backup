@@ -254,6 +254,7 @@ Buscando en datos antiguos se determina que la campaña correcta para el fact co
 Los hospedantes "XX" se corresponden con las 32 muestras de la última campaña (año 2012). Todas las muestras se tomaron sobre maìz, por lo tanto:
 
 .. code-block:: sql
+
 	UPDATE facts
 	SET hospedante = 'M'
 	WHERE hospedante = 'XX'
