@@ -347,4 +347,113 @@ Después aparecieron nuevos haplotipos de esta forma:
     2011,117,346,"+5 (id 23, 24, 25, 26, 27, 28)"
     2012,32,378,"+2 (id 29, 30)"
 
-    
+
+**8.1) Cantidad de casos por ambiente year-region**
+
+.. code-block:: sql
+
+    SELECT year, region, count(*) cant
+    FROM facts
+    GROUP BY year, region
+    ORDER BY year DESC, region
+
+.. csv-table:: Cantidad de casos por ambiente year-region
+   :header: "year" ,"region", "cant"
+
+    2012,Endémica,5
+    2012,Sur Endémica,27
+    2011,Endémica,72
+    2011,Sur de Núcleo,23
+    2011,Sur Endémica,22
+    2009,Endémica,14
+    2009,Este de Endémica,2
+    2009,Valle de Altura,2
+    2004,Endémica,11
+    2004,NorEste Endémica,6
+    2004,Norte Endémica,14
+    2004,Sur de Núcleo,16
+    2004,Valle de Altura,24
+    2003,Norte Endémica,9
+    2003,Sur Endémica,6
+    2002,Endémica,16
+    2002,Norte Endémica,11
+    2001,Endémica,8
+    2000,Endémica,12
+    2000,Valle de Altura,8
+    1999,Endémica,1
+    1999,Valle de Altura,1
+    1997,Endémica,8
+    1997,Norte Endémica,7
+    1997,Sur de Núcleo,1
+    1997,Valle de Altura,2
+    1996,Endémica,3
+    1996,Este de Endémica,1
+    1996,Norte Endémica,1
+    1996,Sur Endémica,6
+    1994,Endémica,6
+    1993,Endémica,5
+    1993,NorEste Endémica,4
+    1993,Norte Endémica,9
+    1992,Endémica,3
+    1992,Norte Endémica,2
+    1992,Sur de Núcleo,2
+    1991,Endémica,5
+    1991,Sur de Núcleo,1
+    1990,Endémica,2
+
+**8.2) Cantidad de casos y de haplotipos por ambiente year-region**
+
+.. code-block:: sql
+
+    SELECT year, region, SUM(cant) cant, count(*) as canthaplos
+    FROM (
+          SELECT year, region, hap_id, count(*) cant
+          FROM facts
+          GROUP BY year, region, hap_id
+         ) A
+    GROUP BY year, region
+    ORDER BY year DESC, region
+
+.. csv-table:: Cantidad de casos por ambiente year-region
+   :header: "year" ,"region", "cant", "canthaplo"
+
+    2012,Endémica,5,2
+    2012,Sur Endémica,27,6
+    2011,Endémica,72,10
+    2011,Sur de Núcleo,23,3
+    2011,Sur Endémica,22,4
+    2009,Endémica,14,2
+    2009,Este de Endémica,2,2
+    2009,Valle de Altura,2,2
+    2004,Endémica,11,2
+    2004,NorEste Endémica,6,3
+    2004,Norte Endémica,14,3
+    2004,Sur de Núcleo,16,2
+    2004,Valle de Altura,24,5
+    2003,Norte Endémica,9,4
+    2003,Sur Endémica,6,3
+    2002,Endémica,16,3
+    2002,Norte Endémica,11,3
+    2001,Endémica,8,2
+    2000,Endémica,12,3
+    2000,Valle de Altura,8,2
+    1999,Endémica,1,1
+    1999,Valle de Altura,1,1
+    1997,Endémica,8,4
+    1997,Norte Endémica,7,3
+    1997,Sur de Núcleo,1,1
+    1997,Valle de Altura,2,2
+    1996,Endémica,3,2
+    1996,Este de Endémica,1,1
+    1996,Norte Endémica,1,1
+    1996,Sur Endémica,6,3
+    1994,Endémica,6,3
+    1993,Endémica,5,3
+    1993,NorEste Endémica,4,4
+    1993,Norte Endémica,9,7
+    1992,Endémica,3,1
+    1992,Norte Endémica,2,2
+    1992,Sur de Núcleo,2,2
+    1991,Endémica,5,4
+    1991,Sur de Núcleo,1,1
+    1990,Endémica,2,1
