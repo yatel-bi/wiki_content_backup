@@ -248,3 +248,32 @@ Buscando en datos antiguos se determina que la campaña correcta para el fact co
     TC,1
     TT,3
     XX,32 ----> ????
+    
+**5.2) Hospedantes XX**
+
+Los hospedantes "XX" se corresponden con las 32 muestras de la última campaña (año 2012). Todas las muestras se tomaron sobre maìz, por lo tanto:
+
+.. code-block:: sql
+	UPDATE facts
+	SET hospedante = 'M'
+	WHERE hospedante = 'XX'
+
+**5.3) Distribución por hospedante con valor erroneo corregido**
+
+.. code-block:: sql
+
+    SELECT hospedante, count(*) AS cant
+    FROM facts
+    GROUP BY hospedante
+
+.. csv-table:: Distribución por hospedante
+   :header: "hospedante", "cant"
+
+    A,9
+    C,6
+    CC,1
+    CE,2
+    M,350
+    T,6
+    TC,1
+    TT,3
