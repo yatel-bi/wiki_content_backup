@@ -1,4 +1,62 @@
-.. tags: 
+.. tags: minutes
 .. title: Minuta de reunion 2017-03-05
 
-base
+Temas a Tratar (Cada uno dura 15min)
+
+- **Ale** leer paper de astropy
+
+    El paper fue leido.
+
+    El paper explica muy poco del dominio del problema en sí (ya que soluciona
+    problemas bien estudiado del campo de la astronomía)
+
+    Ale va a explicar el problema en si
+    Juan va a escribir la solucion que es yatel
+
+- **Juan** y **Ale** ponen fechas a su plan
+
+    Ale hizo, juan no
+
+- **Juan** hace otra DB
+
+    Esta haciendo esta:
+    http://www.kaggle.com/c/kdd-cup-2013-author-paper-identification-challenge/data
+
+- Hacer una lista de db a publicar
+
+    http://wiki.getyatel.org/cases/db-proposals/
+
+- **Juan** Tener listas las 4 imagenes para de la pagina web
+
+    Done.
+
+- **Ale** Hacer un historial de exploración en una wiki
+
+    Semi hecho http://wiki.getyatel.org/analysis/exp2012/
+
+- **Juan** restrurar la wiki
+
+    Done
+
+- **rliberal** hablar con **JBC** de nuevos modulos a documentar
+
+    Rindiendo pendiente
+
+- **rliberal** documentar xx.py y xx.py
+
+    IDem
+
+
+- Que se va a hacer la semana siguiente
+
+    terminar lo que quedo pendiente de la semana anterior
+
+
+
+
+
+
+
+
+
+
