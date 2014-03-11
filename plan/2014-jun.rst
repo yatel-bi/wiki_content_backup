@@ -1,4 +1,4 @@
-.. tags: 
+.. tags: plans
 .. title: Plan de tareas para 1S/2014
 
 Esto es lo que nos comprometimos en la primer reunión
@@ -13,70 +13,73 @@ Esto es lo que nos comprometimos en la primer reunión
     - base de datos compartida Ale - Juan
     - proceso semantico Ale Rodrigo
     - analisis datos nuevos Ale - Adrian
-    
+
 Contratos
 +++++++++
 
-**Juan:** 
+**Juan:**
+
     - Va a estar finalizada la version *0.3* de yatel, lo cual involucra
       las funcionalidades extras tal cual estan y la implementacion de
       todas las funciones de QBJ que se mencionan en este
       `link </dev/qubjfunctions/>`_ y las validaciones de json-schema
     - Va estar listo el paper de yatel
-    - Van a estar terminadas 10 bases de datos en formato YJF para 
-      distribuir con su correspondiente README para saber que 
+    - Van a estar terminadas 10 bases de datos en formato YJF para
+      distribuir con su correspondiente README para saber que
       demonios tiene adentro.
-      
+
+    Todo se va a terminar a junio... es muy largo todo
+
 **MAG:**
-	- Análisis de datos nuevos (30/04/2014)
-    	- Análisis exploratorio (11/03/2013)
+
+    - Análisis de datos nuevos (30/04/2014)
+        - Análisis exploratorio (11/03/2013)
         - Análisis de resdes idem anteriores (25/03/2013)
         - Análisis de resultados de K-mean (08/04/2013)
     - Paper INTA (30/06/2014)
-   		- Presentación de resultado a Paz (30/04/2014)
+        - Presentación de resultado a Paz (30/04/2014)
         - Boceto (13/05/2013)
         - Primer versión (27/05/2013)
         - Versión final (//)
     - Proceso semántico (30/06/2014)
-    	- Lectura de artículos y documentación
+        - Lectura de artículos y documentación
         - Análisis de proceso INTA (con el INTA)
         - Diseño y carga
         - Publicación (Segundo semestre)
     - Base de datos compartidas (30/06/2014)
-    	- Diseño
+        - Diseño
         - Definición de motor y host
         - Puesta en producción
         - Definición y carga de usuarios
         - Carga de datos INTA IPAVE y redes
         - Publicación (Segundo semestre)
-        
-**rliberal:** 
-	- Documentacion
-    	- En la version finalizada **0.3** de Yatel va a ir 
-      	  incluida toda la doc en numpy format - rst en el realease, 
+
+**rliberal:**
+    - Documentacion
+        - En la version finalizada **0.3** de Yatel va a ir
+          incluida toda la doc en numpy format - rst en el realease,
           la doc debe estar completa y con ejemplos entendibles.
           (quedan a coordinar fechas con **JBC**)
     - Testing
-    	- Se va a realizar testeo de los ejemplos documentados y
-      	  testeos pertinentes de Yatel **0.3** que 
+        - Se va a realizar testeo de los ejemplos documentados y
+          testeos pertinentes de Yatel **0.3** que
           **JBC** o **MAG** consideren pertinentes.
           (quedan a coordinar fechas con **JBC**)
     - Proceso semantico
-    	- Luego de finalizar los turnos de exámenes juntarme con
+        - Luego de finalizar los turnos de exámenes juntarme con
           **MAG** y empezar a trabajar en eso. Con una previa explicacion
           o tutorial del objetivo e ir leyendo articulos y discutirlos
           con **MAG**.(30/06/2014)
-    - Busqueda de Practicantes  
-    	- Tener (haber buscado) al menos 2 practicantes para inicio de Abril.
+    - Busqueda de Practicantes
+        - Tener (haber buscado) al menos 2 practicantes para inicio de Abril.
         - Coordinar con **JBC** y **MAG** las duties de los practicantes.
           (recordemos que tienen 200 hs de trabajo)
         - Colaborar con los practicantes dandole facilities para
           completar sus informes de las PS.
     - Programacion
-    	- Tener un nivel regular y aceptable en Python para ayudar
+        - Tener un nivel regular y aceptable en Python para ayudar
           a **JBC** y **MAG** con la programacion de Yatel.
           (inicio de aprendizaje de Python con horas dedicadas luego
           de finalizar los turnos de examen de marzo y aprobar IA)
     - Extras
-    	- Estar recibido a fines de semestre. Proyecto Final, firmado.
-        
+        - Estar recibido a fines de semestre. Proyecto Final, firmado.
