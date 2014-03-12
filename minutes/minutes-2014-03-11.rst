@@ -26,6 +26,8 @@ Temas a Tratar (Cada uno dura 15min)
 
     Juan agrega en la minuta que modulo hay que documenta
     
+    **DOCUMENTAR:** ``yatel.io`` (asegurate de sincronizar bien tu repo)
+    
 .. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_205255.jpg
     :align: center
     
