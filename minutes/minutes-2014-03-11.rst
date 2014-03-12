@@ -1,0 +1,43 @@
+.. tags: minutes
+.. title: Minuta de reunion 2017-03-11
+
+Temas a Tratar (Cada uno dura 15min)
+
+- **Ale** leer paper de astropy
+
+    pendiente a futuro
+
+- **Juan** ponen fechas a su plan
+
+    Juan puso fechas al plan
+
+- WH: http://www.kaggle.com/c/kdd-cup-2013-author-paper-identification-challenge/data
+
+    Tuve prolblemas en definir distancias se discutio en el lab y se dicio
+    medir que tantos papers en comun hay, y los no en comun no conecterlos.
+
+- **Ale** Hacer un historial de exploración en una wiki
+
+    Terminado. En el mismo documento se continuo armando las redes
+
+
+- **rliberal** hablar con **JBC** de nuevos modulos a documentar
+
+    Juan agrega en la minuta que modulo hay que documenta
+
+
+- Que se va a hacer la semana siguiente
+
+    - Juan termina la maldita wh de papers.
+    - Resumen para congreso de fitopatologia.
+    - Va a documentar lo que le diga Juan.
+
+
+
+
+
+
+
+
+
+

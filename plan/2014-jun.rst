@@ -5,14 +5,14 @@ Esto es lo que nos comprometimos en la primer reunión
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 - Paper Juan - Ale
-- Creacion de bases - Juan - Adrian - Roque
-- Documentacion Rodrigo - Juan - Roque
-- Programacion  Juan - Rodrigo - Roque
+- Creacion de bases - Juan
+- Documentacion Rodrigo - Juan
+- Programacion  Juan - Rodrigo
 - INTA
-    - paper inta Ale - Adrian
+    - paper INTA Ale
     - base de datos compartida Ale - Juan
     - proceso semantico Ale Rodrigo
-    - analisis datos nuevos Ale - Adrian
+    - analisis datos nuevos Ale
 
 Contratos
 +++++++++
