@@ -3,6 +3,7 @@
 
 Temas a Tratar (Cada uno dura 15min)
 
+
 - **Ale** leer paper de astropy
 
     pendiente a futuro
@@ -24,6 +25,13 @@ Temas a Tratar (Cada uno dura 15min)
 - **rliberal** hablar con **JBC** de nuevos modulos a documentar
 
     Juan agrega en la minuta que modulo hay que documenta
+    
+.. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_205255.jpg
+    :align: center
+    
+.. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_213617.jpg
+    :align: center
+    
 
 
 - Que se va a hacer la semana siguiente
