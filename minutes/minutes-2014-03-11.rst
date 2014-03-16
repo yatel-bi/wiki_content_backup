@@ -16,6 +16,9 @@ Temas a Tratar (Cada uno dura 15min)
 
     Tuve prolblemas en definir distancias se discutio en el lab y se dicio
     medir que tantos papers en comun hay, y los no en comun no conecterlos.
+    
+    .. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_205255.jpg
+       :align: center
 
 - **Ale** Hacer un historial de exploración en una wiki
 
@@ -28,8 +31,8 @@ Temas a Tratar (Cada uno dura 15min)
     
     **DOCUMENTAR:** ``yatel.io`` (asegurate de sincronizar bien tu repo)
     
-.. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_205255.jpg
-    :align: center
+    
+- **Notas**
     
 .. image:: http://wiki.getyatel.org/minutes/minutes-2014-03-11/_attachment/20140311_213617.jpg
     :align: center
