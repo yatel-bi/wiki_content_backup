@@ -1,4 +1,4 @@
-.. tags: Análisis, 2014, Exploración
+.. tags: Análisis, 2014, Exploración, Variabilidad
 .. title: Exploración de datos 2014
 
 Resumen para Paz
@@ -81,3 +81,153 @@ Los datos históricos se siguen comportando de la misma manera. Los nuevos tambi
 
 Otros datos y cosas útiles
 ++++++++++++++++++++++++++
+
+Cálculo de la variabilidad (SDH vs E(SDH)) con filtro por año para ver la evolución
+
+.. code-block:: sql
+
+    SELECT 
+     campania, 
+     region, 
+     sdh, 
+     SUM(weight*(1-pow((1-Prob_hap_0),cant_muestras))*(1.0-pow((1.0-Prob_hap_1),cant_muestras))) AS Esdh, 
+     cant_muestras,
+     IF(sdh<SUM(weight*(1-pow((1-Prob_hap_0),cant_muestras))*(1.0-pow((1.0-Prob_hap_1),cant_muestras))),'','X') AS var
+    FROM
+         (
+          SELECT campania, region, sum(weight) as sdh, cant_muestras
+          FROM
+               (
+                SELECT A.campania, A.region, hap_0, hap_1, weight, cant_muestras
+                FROM edges,
+                     (
+                      SELECT DISTINCT campania, region, hap_id
+                      FROM facts
+                      WHERE year <= 2011
+                     ) A,
+                     (
+                      SELECT DISTINCT campania, region, hap_id
+                      FROM facts
+                      WHERE year <= 2011
+                     ) B,
+                     (
+                      SELECT campania, region, count(*) as cant_muestras
+                      FROM facts
+                      WHERE year <= 2011
+                      GROUP BY campania, region
+                      HAVING cant_muestras > 1
+                     ) Cantm
+                WHERE A.hap_id <= B.hap_id
+                AND   hap_0 = A.hap_id
+                AND   hap_1 = B.hap_id
+                AND   A.campania = B.campania
+                AND   A.region = B.region
+                AND   A.campania = Cantm.campania
+                AND   A.region = Cantm.region
+               ) C
+          GROUP BY campania, region, cant_muestras
+         ) Q_SDH,
+         (
+          SELECT hap_0, hap_1, weight, PA.prob_haplo AS prob_hap_0, PB.prob_haplo AS prob_hap_1
+          FROM edges,
+               (
+                SELECT hap_id, count(*)/cant_total AS prob_haplo
+                FROM facts,
+                     (
+                      SELECT count(*) as cant_total
+                      FROM facts
+                      WHERE year <= 2011
+                     ) A
+                WHERE year <= 2011
+                GROUP BY hap_id, cant_total
+               ) PA,
+               (
+                SELECT hap_id, count(*)/cant_total AS prob_haplo
+                FROM facts,
+                     (
+                      SELECT count(*) as cant_total
+                      FROM facts
+                      WHERE year <= 2011
+                     ) A
+                WHERE year <= 2011                  
+                GROUP BY hap_id, cant_total
+               ) PB
+          WHERE edges.hap_0 < edges.hap_1
+          AND   edges.hap_0 = PA.hap_id
+          AND   edges.hap_1 = PB.hap_id
+         ) Q_ESDH
+    GROUP BY campania, region, sdh, cant_muestras
+
+
+Cálculo de la variabilidad (SDH vs E(SDH)) con filtro por año para ver la evolución
+
+.. code-block:: sql
+
+    SELECT 
+     campania, 
+     region, 
+     sdh, 
+     SUM(weight*(1-pow((1-Prob_hap_0),cant_muestras))*(1.0-pow((1.0-Prob_hap_1),cant_muestras))) AS Esdh, 
+     cant_muestras,
+     IF(sdh<SUM(weight*(1-pow((1-Prob_hap_0),cant_muestras))*(1.0-pow((1.0-Prob_hap_1),cant_muestras))),'','X') AS var
+    FROM
+         (
+          SELECT campania, region, sum(weight) as sdh, cant_muestras
+          FROM
+               (
+                SELECT A.campania, A.region, hap_0, hap_1, weight, cant_muestras
+                FROM edges,
+                     (
+                      SELECT DISTINCT campania, region, hap_id
+                      FROM facts
+                     ) A,
+                     (
+                      SELECT DISTINCT campania, region, hap_id
+                      FROM facts
+                     ) B,
+                     (
+                      SELECT campania, region, count(*) as cant_muestras
+                      FROM facts
+                      
+                      GROUP BY campania, region
+                      HAVING cant_muestras > 1
+                     ) Cantm
+                WHERE A.hap_id <= B.hap_id
+                AND   hap_0 = A.hap_id
+                AND   hap_1 = B.hap_id
+                AND   A.campania = B.campania
+                AND   A.region = B.region
+                AND   A.campania = Cantm.campania
+                AND   A.region = Cantm.region
+               ) C
+          GROUP BY campania, region, cant_muestras
+         ) Q_SDH,
+         (
+          SELECT hap_0, hap_1, weight, PA.prob_haplo AS prob_hap_0, PB.prob_haplo AS prob_hap_1
+          FROM edges,
+               (
+                SELECT hap_id, count(*)/cant_total AS prob_haplo
+                FROM facts,
+                     (
+                      SELECT count(*) as cant_total
+                      FROM facts
+                      
+                     ) A
+                GROUP BY hap_id, cant_total
+               ) PA,
+               (
+                SELECT hap_id, count(*)/cant_total AS prob_haplo
+                FROM facts,
+                     (
+                      SELECT count(*) as cant_total
+                      FROM facts
+                     ) A
+                GROUP BY hap_id, cant_total
+               ) PB
+          WHERE edges.hap_0 < edges.hap_1
+          AND   edges.hap_0 = PA.hap_id
+          AND   edges.hap_1 = PB.hap_id
+         ) Q_ESDH
+    GROUP BY campania, region, sdh, cant_muestras
+    
+    
