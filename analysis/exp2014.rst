@@ -8,6 +8,35 @@ Resumen para Paz
 
 En 2014 se agregaron 65 muestras a la base de datos
 
+**2) Bandas/segmentos**
+
+En los PAGE aparecen 5 bandas que antes no se tenían en cuenta porque no 
+existían o porque no sus valores no variaban.
+
+Las nuevas bandas son:
+
+    - B1  (Para datos antiguos siempre vale 1)
+    - B1a (Para datos antiguos siempre vale 0)
+    - B1b (No existía. Para datos antiguos se puso 0)
+    - B3c (Para datos antiguos siempre vale 0)
+    - B7  (Para datos antiguos siempre vale 1)
+
+**3) Haplotipos**
+
+Hay 12 haplotipos distintos entre las nuevas 65 muestras, 6 de los cuales
+nunca habían aparecido, por lo tanto no tenían nombre.
+
+Los nuevos haplotipos son:
+
+.. csv-table:: Nuevos haplotipos
+    :header: haplo,B1,B1a,B1b,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E10,E5
+
+    31,0,0,0,1,0,0,1,1,1,1,0,0,1,1,0,0
+    32,0,1,1,0,0,1,1,1,1,0,0,1,1,0,0,1
+    33,1,0,0,0,0,1,1,0,1,1,0,0,1,0,0,1
+    34,1,0,0,0,0,1,1,1,1,0,0,1,1,0,0,1
+    35,1,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0
+    36,1,0,0,1,0,0,1,1,1,1,0,0,1,0,0,1
 
 
 Otros datos y cosas útiles
