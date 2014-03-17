@@ -29,7 +29,7 @@ nunca habían aparecido, por lo tanto no tenían nombre.
 Los nuevos haplotipos son:
 
 .. csv-table:: Nuevos haplotipos
-    :header: haplo,B1,B1a,B1b,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E10,E5
+    :header: haplo,B1,B1a,B1b,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E5,E10
 
     31,0,0,0,1,0,0,1,1,1,1,0,0,1,1,0,0
     32,0,1,1,0,0,1,1,1,1,0,0,1,1,0,0,1
@@ -79,7 +79,9 @@ Los datos históricos se siguen comportando de la misma manera. Los nuevos tambi
     2013 - 2014,Endémica,111,46.87488743,31,X
     2013 - 2014,SurEndémica,42,52.33837028,34,
 
-El mismo análisis hecho por localidad de este resultado interesante. Antes no lo hacíamos por localidad para no perder tantos datos. Con menos de tres muestras por 
+El mismo análisis hecho por localidad da este resultado interesante. 
+La variabilidad baja entre las campañas 1999-2000 y 2008-2009
+Antes no lo hacíamos por localidad para no perder tantos datos. Con menos de tres muestras por 
 ambiente desacartamos el ambiente.
 
 .. csv-table:: Variabilidad por campaña y localidad
@@ -129,6 +131,49 @@ ambiente desacartamos el ambiente.
 
 Otros datos y cosas útiles
 ++++++++++++++++++++++++++
+
+Tabla completa de haplotipos
+
+.. csv-table:: Nuevos haplotipos
+    :header: haplo,B1,B1a,B1b,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E5,E10
+
+    1,1,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0
+    2,1,0,0,1,0,0,1,1,1,1,0,1,1,0,0,0
+    3,1,0,0,1,0,0,1,1,1,1,0,0,1,1,0,0
+    4,1,0,0,1,0,0,1,1,1,1,0,0,1,0,0,0
+    5,1,0,0,1,0,0,1,1,1,0,1,0,1,0,0,0
+    6,1,0,0,1,0,0,1,1,1,0,1,0,0,0,0,0
+    7,1,0,0,1,0,0,1,1,1,0,0,1,1,0,1,1
+    8,1,0,0,1,0,0,1,1,1,0,0,1,1,0,1,0
+    9,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,0
+    10,1,0,0,1,0,0,1,1,1,0,0,1,0,1,0,0
+    11,1,0,0,1,0,0,1,1,1,0,0,0,1,1,0,0
+    12,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,0
+    13,1,0,0,0,1,0,1,1,1,0,0,1,1,0,1,1
+    14,1,0,0,0,1,0,1,1,1,0,0,1,1,0,0,0
+    15,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,1
+    16,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0
+    17,1,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0
+    18,1,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0
+    19,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0
+    20,1,0,0,0,1,0,1,1,1,0,1,0,1,0,1,1
+    21,1,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0
+    22,1,0,0,1,0,0,1,1,1,0,1,0,1,1,0,0
+    23,1,0,0,1,0,0,0,1,1,0,1,0,1,0,0,0
+    24,1,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0
+    25,1,0,0,1,0,0,1,1,1,0,1,0,1,1,0,1
+    26,1,0,0,1,0,0,0,1,1,0,0,1,1,0,0,1
+    27,1,0,0,1,0,0,1,1,1,0,1,0,1,0,0,1
+    28,1,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0
+    29,1,0,0,0,1,0,1,1,1,1,0,0,1,0,0,0
+    30,1,0,0,1,0,0,1,1,1,0,1,0,1,0,1,0
+    31,0,0,0,1,0,0,1,1,1,1,0,0,1,1,0,0
+    32,0,1,1,0,0,1,1,1,1,0,0,1,1,0,0,1
+    33,1,0,0,0,0,1,1,0,1,1,0,0,1,0,0,1
+    34,1,0,0,0,0,1,1,1,1,0,0,1,1,0,0,1
+    35,1,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0
+    36,1,0,0,1,0,0,1,1,1,1,0,0,1,0,0,1
+
 
 Cálculo de la variabilidad (SDH vs E(SDH)) con filtro por año para ver la evolución
 
