@@ -45,7 +45,7 @@ La variabilidad se calcula comparando el indicador SDH con su valor esperado E(S
 Cuando se introducen datos nuevos cambian los valores esperados E(SDH).
 Los datos históricos se siguen comportando de la misma manera. Los nuevos también, salvo por "2013 - 2014, Endémica", que tiene alta variabilidad.
 
-.. csv-table:: Variabilidad
+.. csv-table:: Variabilidad por campaña y región
     :header: Campaña,Región,SDH,E(SDH),Muestras,Alta variabilidad
 
     1989 - 1990,Endémica,1,2.677122783,3,
@@ -78,6 +78,54 @@ Los datos históricos se siguen comportando de la misma manera. Los nuevos tambi
     2011 - 2012,SurEndémica,25,39.78680295,27,
     2013 - 2014,Endémica,111,46.87488743,31,X
     2013 - 2014,SurEndémica,42,52.33837028,34,
+
+El mismo análisis hecho por localidad de este resultado interesante. Antes no lo hacíamos por localidad para no perder tantos datos. Con menos de tres muestras por 
+ambiente desacartamos el ambiente.
+
+.. csv-table:: Variabilidad por campaña y localidad
+    :header: Campaña,Localidad,SDH,E(SDH),Muestras,Alta variabilidad
+
+    1989 - 1990,RC,1,2.677122783122388,3,
+    1990 - 1991,RC,8,5.315385411625387,5,X
+    1991 - 1992,RC,0,2.677122783122388,3,
+    1992 - 1993,EF,7,2.677122783122388,3,X
+    1992 - 1993,LP,7,2.677122783122388,3,X
+    1992 - 1993,MF,6,2.677122783122388,3,X
+    1992 - 1993,RC,0,2.677122783122388,3,
+    1992 - 1993,T,4,3.9721703248883014,4,X
+    1993 - 1994,RC,4,6.691015657928904,6,
+    1996 - 1997,HR,3,6.691015657928904,6,
+    1996 - 1997,JM,4,6.691015657928904,6,
+    1996 - 1997,RC,17,12.422912320670363,10,X
+    1999 - 2000,RC,6,15.400653338412406,12,
+    1999 - 2000,TV,1,10.960200402996996,9,
+    2000 - 2001,RC,1,9.516209466826954,8,
+    2001 - 2002,JM,3,12.422912320670363,10,
+    2001 - 2002,RC,4,21.553189174945803,16,
+    2002 - 2003,HR,4,6.691015657928904,6,
+    2002 - 2003,JM,8,12.422912320670363,10,
+    2003 - 2004,JM,4,18.444650967804392,14,
+    2003 - 2004,P,1,21.553189174945803,16,
+    2003 - 2004,RC,1,13.903299102266654,11,
+    2003 - 2004,TV,15,34.62628717674808,24,
+    2003 - 2004,VR,4,6.691015657928904,6,
+    2008 - 2009,E,1,18.444650967804392,14,
+    2010 - 2011,AC,47,24.725869816997264,18,X
+    2010 - 2011,H,8,5.315385411625387,5,X
+    2010 - 2011,HA,3,31.262951186878233,22,
+    2010 - 2011,LQ,8,23.131517910669185,17,
+    2010 - 2011,NB,3,3.9721703248883014,4,
+    2010 - 2011,S,16,59.80656944639763,38,
+    2010 - 2011,SP,8,5.315385411625387,5,X
+    2010 - 2011,V,3,2.677122783122388,3,X
+    2011 - 2012,GP,25,39.78680295393439,27,
+    2011 - 2012,SU,2,5.315385411625387,5,
+    2013 - 2014,BR,34,18.444650967804392,14,X
+    2013 - 2014,PU,42,52.33837027736918,34,
+    2013 - 2014,RC,25,8.09243113623356,7,X
+    2013 - 2014,SU,1,9.516209466826954,8,
+
+
 
 Otros datos y cosas útiles
 ++++++++++++++++++++++++++
