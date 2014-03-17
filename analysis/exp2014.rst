@@ -15,11 +15,11 @@ existían o porque no sus valores no variaban.
 
 Las nuevas bandas son:
 
-    - B1  (Para datos antiguos siempre vale 1)
-    - B1a (Para datos antiguos siempre vale 0)
-    - B1b (No existía. Para datos antiguos se puso 0)
-    - B3c (Para datos antiguos siempre vale 0)
-    - B7  (Para datos antiguos siempre vale 1)
+    - B1  	(Para datos antiguos siempre vale 1)
+    - B1a 	(Para datos antiguos siempre vale 0)
+    - B1b 	(No existía. Para datos antiguos se puso 0)
+    - B3c 	(Para datos antiguos siempre vale 0)
+    - B7  	(Para datos antiguos siempre vale 1)
 
 **3) Haplotipos**
 
@@ -38,6 +38,46 @@ Los nuevos haplotipos son:
     35,1,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0
     36,1,0,0,1,0,0,1,1,1,1,0,0,1,0,0,1
 
+**3) Análisis de variabilidad con redes de haplotipos**
+
+Esto es lo que publicamos las últimas veces. En los trabajos anteriores la conclusión fue que la variabilidad estaba disminuyendo.
+La variabilidad se calcula comparando el indicador SDH con su valor esperado E(SDH).
+Cuando se introducen datos nuevos cambian los valores esperados E(SDH).
+Los datos históricos se siguen comportando de la misma manera. Los nuevos también, salvo por "2013 - 2014, Endémica", que tiene alta variabilidad.
+
+.. csv-table:: Variabilidad
+    :header: Campaña,Región,SDH,E(SDH),Muestras,Alta variabilidad
+
+    1989 - 1990,Endémica,1,2.677122783,3,
+    1990 - 1991,Endémica,8,5.315385412,5,X
+    1991 - 1992,Endémica,0,2.677122783,3,
+    1992 - 1993,Endémica,5,5.315385412,5,
+    1992 - 1993,NorEsteEndémica,12,3.972170325,4,X
+    1992 - 1993,NorteEndémica,50,10.9602004,9,X
+    1993 - 1994,Endémica,4,6.691015658,6,
+    1996 - 1997,Endémica,17,12.42291232,10,X
+    1996 - 1997,NorteEndémica,4,6.691015658,6,
+    1996 - 1997,SurEndémica,3,6.691015658,6,
+    1999 - 2000,Endémica,6,15.40065334,12,
+    1999 - 2000,Valle de Altura,1,10.9602004,9,
+    2000 - 2001,Endémica,1,9.516209467,8,
+    2001 - 2002,Endémica,4,21.55318917,16,
+    2001 - 2002,NorteEndémica,3,12.42291232,10,
+    2002 - 2003,NorteEndémica,8,12.42291232,10,
+    2002 - 2003,SurEndémica,4,6.691015658,6,
+    2003 - 2004,Endémica,1,13.9032991,11,
+    2003 - 2004,NorEsteEndémica,4,6.691015658,6,
+    2003 - 2004,NorteEndémica,4,18.44465097,14,
+    2003 - 2004,Sur de Núcleo,1,21.55318917,16,
+    2003 - 2004,Valle de Altura,15,34.62628718,24,
+    2008 - 2009,Endémica,1,18.44465097,14,
+    2010 - 2011,Endémica,101,129.690877,72,
+    2010 - 2011,Sur de Núcleo,3,32.93681081,23,
+    2010 - 2011,SurEndémica,8,31.26295119,22,
+    2011 - 2012,Endémica,2,5.315385412,5,
+    2011 - 2012,SurEndémica,25,39.78680295,27,
+    2013 - 2014,Endémica,111,46.87488743,31,X
+    2013 - 2014,SurEndémica,42,52.33837028,34,
 
 Otros datos y cosas útiles
 ++++++++++++++++++++++++++
