@@ -159,7 +159,7 @@ Cálculo de la variabilidad (SDH vs E(SDH)) con filtro por año para ver la evol
     GROUP BY campania, region, sdh, cant_muestras
 
 
-Cálculo de la variabilidad (SDH vs E(SDH)) con filtro por año para ver la evolución
+Cálculo de la variabilidad (SDH vs E(SDH)) sin filtro por año
 
 .. code-block:: sql
 
