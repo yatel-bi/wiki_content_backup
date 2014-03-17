@@ -134,7 +134,7 @@ Otros datos y cosas útiles
 
 Tabla completa de haplotipos
 
-.. csv-table:: Nuevos haplotipos
+.. csv-table:: Haplotipos MRCV
     :header: haplo,B1,B1a,B1b,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E5,E10
 
     1,1,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0
