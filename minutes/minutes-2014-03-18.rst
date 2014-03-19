@@ -36,6 +36,7 @@ Temas a Tratar (Cada uno dura 15min)
     - Rodrigo: Pendiente ``yatel.io``
     - Alejandro: Rehacer los datos nuevos
     - Generar el dump de db y corregir k-means
+    - Hay que definir cuando nos juntamos
 
 
 
