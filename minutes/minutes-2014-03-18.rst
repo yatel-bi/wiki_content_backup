@@ -5,27 +5,37 @@ Temas a Tratar (Cada uno dura 15min)
 
 - Mail para julio
 
-    - Título de la charla: ??
+    - Título de la charla: Análisis de datos a traves de grafos.
     - Fecha: 08/04/2014 a las 20hs
     - Dirigido a: Estudiantes/Docentes/Graduados
-    - Horario: 20:00 a 21.00 o 21:30 hs? según lo necesario.
+    - Horario: 20:00 a 21:30 hs.
     - Lugar: SUM (Salón de Usos Múltiples) (casi seguro, me resta confirmar la reserva)
-    - Disertantes: Ing. Alejandro Garcia e Ing. Juan Cabral
-    - Requisitos: Conocimientos básicos de ? (puede no estar presente este item)
-    - Temario: Una línea (o párrafo) con una breve descripción
-
+    - Disertantes: Ing. Alejandro García e Ing. Juan Cabral
+    - Temario:
+        - Historia y motivaciones del proyecto.
+        - Descubrimiento de conocimiento en Base de Datos
+        - Network Science.
+        - Almacenes de datos (Data Wharehousing), OLAP e Inteligencia de Negocios.
+        - Yatel: BI a través de redes.
 
 - Juan termina la maldita wh de papers.
 
-    Termino
+    Termino, hay que generar el dump.
 
 - Alejandro: Resumen para congreso de fitopatologia.
 
-    ??
+    - Los datos que paso Paz estaban mal y hay que rehacer todo:
+    - Esto es lo que pasaron antes http://wiki.getyatel.org/analysis/exp2014/
 
 - Rodrigo: Va a documentar lo que le diga Juan ``yatel.io``
 
+    - Enfermo
 
+- Para la semana que viene
+
+    - Rodrigo: Pendiente ``yatel.io``
+    - Alejandro: Rehacer los datos nuevos
+    - Generar el dump de db y corregir k-means
 
 
 
