@@ -5,7 +5,7 @@ Temas a Tratar (Cada uno dura 15min)
 
 - Mail para julio
 
-    - Título de la charla: Análisis de datos a traves de grafos.
+    - Título de la charla: Análisis de datos a través de grafos.
     - Fecha: 08/04/2014 a las 20hs
     - Dirigido a: Estudiantes/Docentes/Graduados
     - Horario: 20:00 a 21:30 hs.
