@@ -34,6 +34,15 @@ Las muestras fueron tomadas en estas localidades:
 
 **4) Haplotipos**
 
+Hay 7 haplotipos distintos entre las nuevas 65 muestras, 1 de los cuales
+nunca había aparecido, por lo tanto no tenía nombre.
+
+El nuevo haplotipo es:
+
+.. csv-table:: Nuevos haplotipos
+    :header: haplo,B3a,B3b,B3c,B5,B7,B8,B9a,B9b,B9c,B10a,B10b,E5,E10
+
+	31,0,0,1,1,0,1,1,0,0,1,0,0,1
 
 
 Resumen para Paz (Datos viejos - No usar)
