@@ -18,7 +18,21 @@ Las nuevas bandas son:
     - B3c 	(Para datos antiguos siempre vale 0)
     - B7  	(Para datos antiguos siempre vale 1)
 
-**3) Haplotipos**
+**3) Localidades**
+
+Las muestras fueron tomadas en estas localidades:
+
+    - PU: Puán (*)
+    - BR: Bruzole (*)
+    - VM: Vicuña Mackena
+    - AL: Gigena (*)
+    - SU: Suco
+    - RC: Río Cuarto
+
+	(*) Aparecen por primera vez
+    
+
+**4) Haplotipos**
 
 
 
