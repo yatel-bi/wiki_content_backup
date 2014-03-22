@@ -1,8 +1,29 @@
 .. tags: Análisis, 2014, Exploración, Variabilidad
 .. title: Exploración de datos 2014
 
-Resumen para Paz
-++++++++++++++++
+Resumen para Paz (Nuevo - 72 muestras)
+++++++++++++++++++++++++++++++++++++++
+
+**1) Muestras**
+
+En 2014 se agregaron 72 muestras a la base de datos
+
+**2) Bandas/segmentos**
+
+En los PAGE aparecen 2 bandas que antes no se tenían en cuenta porque no 
+existían o porque no sus valores no variaban.
+
+Las nuevas bandas son:
+
+    - B3c 	(Para datos antiguos siempre vale 0)
+    - B7  	(Para datos antiguos siempre vale 1)
+
+**3) Haplotipos**
+
+
+
+Resumen para Paz (Datos viejos - No usar)
++++++++++++++++++++++++++++++++++++++++++
 
 **1) Muestras**
 
