@@ -56,6 +56,47 @@ Distribución de haplotipos en las nuevas muestras:
     12,2
     14,4
     31,1
+    
+**5) Análisis de variabilidad con redes de haplotipos**
+
+Esto es lo que publicamos las últimas veces. En los trabajos anteriores la conclusión fue que la variabilidad estaba disminuyendo.
+La variabilidad se calcula comparando el indicador SDH con su valor esperado E(SDH).
+Cuando se introducen datos nuevos cambian los valores esperados E(SDH).
+Los datos históricos se siguen comportando de la misma manera. Los nuevos también.
+
+.. csv-table:: Variabilidad por campaña y región
+    :header: Campaña,Región,SDH,E(SDH),Muestras,Alta variabilidad
+    
+    1989 - 1990,Endémica,1,2.504775233155927,3,
+    1990 - 1991,Endémica,8,4.893098583502773,5,X
+    1991 - 1992,Endémica,0,2.504775233155927,3,
+    1992 - 1993,Endémica,5,4.893098583502773,5,X
+    1992 - 1993,NorEste Endémica,12,3.6850240092318898,4,X
+    1992 - 1993,Norte Endémica,50,9.836052023252506,9,X
+    1993 - 1994,Endémica,4,6.115846870067882,6,
+    1996 - 1997,Endémica,17,11.089392395379145,10,X
+    1996 - 1997,Norte Endémica,4,6.115846870067882,6,
+    1996 - 1997,Sur Endémica,3,6.115846870067882,6,
+    1999 - 2000,Endémica,6,13.613636253980097,12,
+    1999 - 2000,Valle de Altura,1,9.836052023252506,9,
+    2000 - 2001,Endémica,1,8.588877463484037,8,
+    2001 - 2002,Endémica,4,18.734975223725925,16,
+    2001 - 2002,Norte Endémica,3,11.089392395379145,10,
+    2002 - 2003,Norte Endémica,8,11.089392395379145,10,
+    2002 - 2003,Sur Endémica,4,6.115846870067882,6,
+    2003 - 2004,Endémica,1,12.348609834809261,11,
+    2003 - 2004,NorEste Endémica,4,6.115846870067882,6,
+    2003 - 2004,Norte Endémica,4,16.161588178618914,14,
+    2003 - 2004,Sur de Núcleo,1,18.734975223725925,16,
+    2003 - 2004,Valle de Altura,15,29.31980597163191,24,
+    2008 - 2009,Endémica,1,16.161588178618914,14,
+    2010 - 2011,Endémica,101,101.03826757120578,72,
+    2010 - 2011,Sur de Núcleo,3,27.969698588786354,23,
+    2010 - 2011,Sur Endémica,8,26.627441804619917,22,
+    2011 - 2012,Endémica,2,4.893098583502773,5,
+    2011 - 2012,Sur Endémica,25,33.41699777042627,27,
+    2013 - 2014,Endémica,28,49.003610013219046,38,
+    2013 - 2014,Sur Endémica,25,43.23945506793109,34,
 
 Resumen para Paz (Datos viejos - No usar)
 +++++++++++++++++++++++++++++++++++++++++
