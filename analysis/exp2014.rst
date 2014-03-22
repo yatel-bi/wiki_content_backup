@@ -46,8 +46,8 @@ El nuevo haplotipo es:
 
 Distribución de haplotipos en las nuevas muestras:
 
-.. csv-table:: Distribución de haplotuipos
-    :header: haplo,cant
+.. csv-table:: Distribución de haplotipos
+    :header: Haplotipo, Cantidad
     
     3,2
     4,10
