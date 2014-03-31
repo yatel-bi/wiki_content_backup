@@ -37,7 +37,7 @@ Contratos
         - Análisis de resdes idem anteriores (25/03/2013)
         - Análisis de resultados de K-mean (08/04/2013)
     - Paper INTA (30/06/2014)
-        - Presentación de resultado a Paz (30/04/2014)
+        - Presentación de resultado a Paz (30/04/2014) -> Hecho por mail. Reunión el 04/04/2014
         - Boceto (13/05/2013)
         - Primer versión (27/05/2013)
         - Versión final (//)
