@@ -64,6 +64,8 @@ La variabilidad se calcula comparando el indicador SDH con su valor esperado E(S
 Cuando se introducen datos nuevos cambian los valores esperados E(SDH).
 Los datos históricos se siguen comportando de la misma manera. Los nuevos también.
 
+**Por Región:**
+
 .. csv-table:: Variabilidad por campaña y región
     :header: Campaña,Región,SDH,E(SDH),Muestras,Alta variabilidad
     
@@ -99,7 +101,9 @@ Los datos históricos se siguen comportando de la misma manera. Los nuevos tambi
     2013 - 2014,Sur Endémica,25,43.23945506793109,34,
     
 .. image:: http://wiki.getyatel.org/analysis/exp2014/_attachment/SDH_vs_ESDH.png
-    
+
+**Por Localidad:**
+
 El mismo análisis hecho por localidad da este resultado interesante. 
 La variabilidad baja entre las campañas 1999-2000 y 2008-2009
 Antes no lo hacíamos por localidad para no perder tantos datos. Con menos de tres muestras por 
