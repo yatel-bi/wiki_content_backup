@@ -98,6 +98,8 @@ Los datos históricos se siguen comportando de la misma manera. Los nuevos tambi
     2013 - 2014,Endémica,28,49.003610013219046,38,
     2013 - 2014,Sur Endémica,25,43.23945506793109,34,
     
+.. image:: http://wiki.getyatel.org/analysis/exp2014/_attachment/SDH_vs_ESDH.png
+    
 El mismo análisis hecho por localidad da este resultado interesante. 
 La variabilidad baja entre las campañas 1999-2000 y 2008-2009
 Antes no lo hacíamos por localidad para no perder tantos datos. Con menos de tres muestras por 
