@@ -1,0 +1,15 @@
+.. tags: 
+.. title: Minuta de reunion 2017-04-17
+
+**Tareas para la próxima semana**
+
+    - Emilio: 
+    	* Quick start
+    - JBC:
+    	* Cargar funciones faltantes de QBJ
+    - Topo:
+    	* Documentar
+        * Corregir Quick start
+    - MAG:
+    	* Gráficos SDH vs E(SDH)
+        * Filtrar datos NOA y NEA
