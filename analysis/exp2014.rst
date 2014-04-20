@@ -152,7 +152,7 @@ ambiente desacartamos el ambiente.
     2013 - 2014,"RC","8","16.161588178618914","14",
     2013 - 2014,"SU","1","8.588877463484037","8",
 
-
+.. image:: http://wiki.getyatel.org/analysis/exp2014/_attachment/SDH_vs_ESDH_loc.png
 
 Resumen para Paz (Datos viejos con errores en bandas - No usar)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
