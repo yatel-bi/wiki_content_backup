@@ -96,17 +96,18 @@
         - "MCMV"
         - "Fitoplas"
 - Problemas detectados:
-
         - Muchos valores nulos (salvo en los campos geográficos)
         - Fechas incompletas
         - Números de planta como rangos y enumeraciones (por ejemplo: "133/147", "22;29/31;35/36;39/40;48;53;58")
-        - Representación no uniforme de la información, por ejemplo:
-        - En E1.CSS.incCSS hay valores como ["11,76%", "30 hojas", "3 plantas", NULL, "0%"]
-        - En E1.CSS.incMRCV hay valores como ["Si", "No", "2,50%", "0%", NULL, "Sospechoso", "Dudoso")
-        - En E1.CSS.CSS hay valores como ["Si", "No", "D", NULL]
-        - En E1.CSS.MRCV hay valores como ["5???", "4", "13 de 30", "0 de 5", NULL] (no es el mismo criterio que para CSS)
-        - En E1.CSS hay casos como: CSS = Si, incCSS = NULL, observaciones = "achaparrada, muchas mazorcas 1 de 19". (¿Con esta observación no debería haber otra 
-
-incidencia?)
+        - **Representación no uniforme de la información**, por ejemplo:
+        
+            - En E1.CSS.incCSS hay valores como ["11,76%", "30 hojas", "3 plantas", NULL, "0%"]
+            - En E1.CSS.incMRCV hay valores como ["Si", "No", "2,50%", "0%", NULL, "Sospechoso", "Dudoso")
+            - En E1.CSS.CSS hay valores como ["Si", "No", "D", NULL]
+            - En E1.CSS.MRCV hay valores como ["5???", "4", "13 de 30", "0 de 5", NULL]. **No es el mismo criterio que para CSS.**
+            - En E1.CSS hay casos como: 
+               - CSS = "Si"
+               - incCSS = NULL
+               - observaciones = "achaparrada, muchas mazorcas 1 de 19". **¿Con esta observación no debería haber otros valores para CSS o incCSS, como 1/19 o algo así?**
 
 
