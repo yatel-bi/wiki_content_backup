@@ -1,0 +1,19 @@
+.. tags: 
+.. title: Minuta de reunión 2017-05-01
+
+Tareas para la semana
+
+    - Emilio: 
+    	* Tareas a cargar por Emilio y JBC
+    - JBC:
+    	* Armar el plan de Jésica y subirlo a la wiki
+    	* Pedir certificados de SciPy y PyConES
+    - Topo:
+    	* Terminar documentación
+    - MAG:
+    	* Impresión del póster
+    	* Reunión con R.Medel
+    	* Revisión con INTA de los datos CSS + MRCV
+        * Filtrar datos NOA y NEA
+    - Jésica:
+    	* Según plan que suba JBC
