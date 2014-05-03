@@ -15,5 +15,6 @@ Tareas para la semana
     	* Reunión con R.Medel
     	* Revisión con INTA de los datos CSS + MRCV
         * Filtrar datos NOA y NEA
+        * Llevar los papeles de PS de Jésica
     - Jésica:
     	* Según plan que suba JBC
