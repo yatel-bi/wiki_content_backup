@@ -4,12 +4,14 @@
 Tareas para la semana
 
     - Emilio: 
-    	* Tareas a cargar por Emilio y JBC
+    	* Terminar quickstart
+        * Terminar cli2.py e integrarlo
     - JBC:
-    	* Armar el plan de Jésica y subirlo a la wiki
+    	* Armar el plan de Jésica y subirlo a la wiki (http://wiki.getyatel.org/plan/pps-castro/)
     	* Pedir certificados de SciPy y PyConES
     - Topo:
-    	* Terminar documentación
+    	* Terminar documentación de io.
+        * Traducir quickstartr.rst
     - MAG:
     	* Impresión del póster
     	* Reunión con R.Medel
@@ -17,4 +19,4 @@ Tareas para la semana
         * Filtrar datos NOA y NEA
         * Llevar los papeles de PS de Jésica
     - Jésica:
-    	* Según plan que suba JBC
+    	* Terminar ESTE requerimiento: http://jbcabral.com/2009/11/17/requerimientos-para-aprender-algun-lenguaje/
