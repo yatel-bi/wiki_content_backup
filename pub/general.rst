@@ -7,8 +7,7 @@
 
   7 y 8 de mayo de 2014, Ushuaia, Tierra del Fuego. http://www.untdf.edu.ar/wicc2014/
 
-  - Artículo_
-  - Póster_
+  - Tipo (Artículo / Póster / Resumen / Presentación): Artículo_ / Póster_
   - Cita: [Cargar cita]
 
 .. _Artículo: http://wiki.getyatel.org/pub/general/_attachment/Articulo_WICC_2014_enviado.pdf
