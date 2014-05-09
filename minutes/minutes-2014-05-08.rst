@@ -1,0 +1,20 @@
+.. tags: 
+.. title: Minuta de reunión 2017-05-08
+
+Tareas para la semana
+
+    - Emilio: 
+    	* Hablar con JBC
+        * Terminar quickstart
+        * Terminar cli2.py e integrarlo
+    - JBC:
+    	* Escribir documentación del módulo estadística
+    	* Conseguir certificados de SciPy y PyConES
+    - Topo:
+    	* Hacer Jason Schema para configuración del server
+    - MAG:
+    	* Enviar los datos (y análisis) de NOA y NEA
+    - Jésica:
+    	* Aprender Mercurial
+    	* Aprender framework de testing
+    	* Elegir editor "lindo"
