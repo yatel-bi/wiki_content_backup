@@ -2,7 +2,6 @@
 .. title: CSS + MRCV
 
 
-
 12/05/2014
 ++++++++++
 
@@ -26,12 +25,12 @@
 
 - **La cantidad de registros en esta región es de sólo 54**. VERIFICAR QUE LOS PARÁMETROS SEAN CORRECTOS.
 
-.. code-block:: sql
-
-      SELECT * 
-      FROM  Hechos 
-      WHERE latitud < 30 // Se usa "<" porque en la BD las coordenadas son positivas.
-      AND longitud BETWEEN 62 AND 64
+  .. code-block:: sql
+  
+        SELECT * 
+        FROM  Hechos 
+        WHERE latitud < 30 // Se usa "<" porque en la BD las coordenadas son positivas.
+        AND longitud BETWEEN 62 AND 64
 
 - La distribución de los grados de longitud para latitud > -30° es:
 
