@@ -1,7 +1,8 @@
 .. tags: 
 .. title: CSS + MRCV
 
-Bla bla
+Exploración de datos CSS + MRCV
++++++++++++++++++++++++++++++++
 
 12/05/2014
 ++++++++++
@@ -26,14 +27,14 @@ Bla bla
 
 - **La cantidad de registros en esta región es de sólo 54**. VERIFICAR QUE LOS PARÁMETROS SEAN CORRECTOS.
 
-SELECT * 
-FROM  `Hechos` 
-WHERE latitud <30
-AND longitud
-BETWEEN 62 
-AND 64
+.. code-block:: sql
 
-- La distribución de los grados de longitud para latitud < -30° es:
+      SELECT * 
+      FROM  Hechos 
+      WHERE latitud < 30 // Se usa "<" porque en la BD las coordenadas son positivas.
+      AND longitud BETWEEN 62 AND 64
+
+- La distribución de los grados de longitud para latitud > -30° es:
 
 	.. image:: http://wiki.getyatel.org/analysis/css+mrcv/_attachment/Histo_Long_para_Lat_30.png
 
