@@ -12,7 +12,30 @@ Bla bla
 
 - Se deben seleccionar solo los registros con latitud > -30° y con longitud entre -64° y - 62°.
 
+- La distribución de los grados de latitud es la siguiente:
 
+	.. image:: http://wiki.getyatel.org/analysis/css+mrcv/_attachment/Histo_Latitud.png
+    
+- La distribución de los grados de longitud es la siguiente:
+
+	.. image:: http://wiki.getyatel.org/analysis/css+mrcv/_attachment/Histo_Longitud.png
+
+- Se filtran los datos según el criterio definido arriba. La región seleccionada se puede ver en el mapa:
+
+	.. image:: http://wiki.getyatel.org/analysis/css+mrcv/_attachment/Mapa_-_Seleccion.jpg
+
+- **La cantidad de registros en esta región es de sólo 54**. VERIFICAR QUE LOS PARÁMETROS SEAN CORRECTOS.
+
+SELECT * 
+FROM  `Hechos` 
+WHERE latitud <30
+AND longitud
+BETWEEN 62 
+AND 64
+
+- La distribución de los grados de longitud para latitud < -30° es:
+
+	.. image:: http://wiki.getyatel.org/analysis/css+mrcv/_attachment/Histo_Long_para_Lat_30.png
 
 
 01/05/2014
