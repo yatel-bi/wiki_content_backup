@@ -1,7 +1,22 @@
 .. tags: 
 .. title: CSS + MRCV
 
---2014-05-01--
+Bla bla
+
+12/05/2014
+++++++++++
+
+**Exploración y filtrado de la base de datos**
+
+- La base de datos contiene 3902 registros.
+
+- Se deben seleccionar solo los registros con latitud > -30° y con longitud entre -64° y - 62°.
+
+
+
+
+01/05/2014
+++++++++++
 
 **Fuentes de datos:**
 
