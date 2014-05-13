@@ -1,8 +1,7 @@
 .. tags: 
 .. title: CSS + MRCV
 
-Exploración de datos CSS + MRCV
-+++++++++++++++++++++++++++++++
+
 
 12/05/2014
 ++++++++++
