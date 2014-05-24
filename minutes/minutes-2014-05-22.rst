@@ -6,7 +6,7 @@ Tareas para la semana
     - Emilio: 
     	* TBD
     - JBC:
-    	* TBD
+    	* Nada (tengo que laburar con datos del observatorio)
     - Topo:
     	* TBD
     - MAG:
@@ -16,4 +16,4 @@ Tareas para la semana
         * "Refrescar" los cálculos usando los datos nuevos.
         * Reunión con Paz el próximo viernes (deadline de BIOMAT) para terminar de escribir y enviar el resumen y enviarlo.
     - Jésica:
-    	* TBD
+    	* Terminar segunda tanda de ejercicios
