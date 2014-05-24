@@ -1,0 +1,19 @@
+.. tags: 
+.. title: Minuta de reunión 2014-05-22
+
+Tareas para la semana
+
+    - Emilio: 
+    	* TBD
+    - JBC:
+    	* TBD
+    - Topo:
+    	* TBD
+    - MAG:
+    	* Limpiar y cargar aprox. 2000 registros nuevos entregados ayer.
+        * Cargar algunas modificaciones de Paz sobre los datos actuales.
+        * Cambiar formato de los gráficos y enviar al INTA.
+        * "Refrescar" los cálculos usando los datos nuevos.
+        * Reunión con Paz el próximo viernes (deadline de BIOMAT) para terminar de escribir y enviar el resumen y enviarlo.
+    - Jésica:
+    	* TBD
