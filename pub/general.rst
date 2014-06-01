@@ -14,6 +14,22 @@
 .. _Art_WICC2014: http://wiki.getyatel.org/pub/general/_attachment/Articulo_WICC_2014_enviado.pdf
 .. _Pos_WICC2014: http://wiki.getyatel.org/pub/general/_attachment/poster_v01.pdf
 
+
+- **3CAF**
+
+  3er Congreso Argentino de Fitopatología
+
+  4 al 6 de junio de 2014, San Miguel de Tucumán, Tucumán. http://aafcongreso2014.com.ar/index.php
+
+  - Título: **Variabilidad genómica actual del Mal de Río Cuarto virus (MRCV) en maíz**
+  - Tipo (Artículo / Póster / Resumen / Presentación): Resumen (Res_3CAF_) / Póster (Pos_3CAF_)
+  - Cita: [Cargar cita]
+
+.. _Res_3CAF: http://wiki.getyatel.org/pub/general/_attachment/ResumenFito2014.pdf
+.. _Pos_3CAF: http://wiki.getyatel.org/pub/general/_attachment/PosterFito2014.pdf
+
+
+
 - **BIOMAT 2014**
 
   6ta Escuela Argentina de Matemática y Biología
