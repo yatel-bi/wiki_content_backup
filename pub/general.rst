@@ -7,6 +7,7 @@
 
   7 y 8 de mayo de 2014, Ushuaia, Tierra del Fuego. http://www.untdf.edu.ar/wicc2014/
 
+  - Título: **Exploración de grafos para el análisis de datos**
   - Tipo (Artículo / Póster / Resumen / Presentación): Artículo (Art_WICC2014_) / Póster (Pos_WICC2014_)
   - Cita: [Cargar cita]
 
@@ -19,6 +20,7 @@
 
   4 al 8 de agostp de 2014, La Falda, Córdoba. http://www.famaf.unc.edu.ar/~biomat/escuela14/
 
+  - Título: **Periodicidad y distribución de dos enfermedades del maíz (Zea mays L) en la década del 2000 en Argentina**
   - Tipo (Artículo / Póster / Resumen / Presentación): Resumen (Res_BIOMAT2014_) / Póster
   - Cita: [Cargar cita]
 
