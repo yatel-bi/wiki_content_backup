@@ -1,7 +1,6 @@
 .. tags: 
 .. title: Minuta de reunion 2014-05-29
 
-
 TODO LIST
 -----------------
 
@@ -16,7 +15,7 @@ TODO LIST
     + stats (Jési 2)
     + etl (Jési 4)
     + client (?)
-    + dom (Jési 1)
+    + dom (Jési 1) **done**
 - Los errores no se muestran en consola cuando se ejecutan los comandos de yatel (Emi)
 - Doc:
     + qbj (Juan) (Topo)
