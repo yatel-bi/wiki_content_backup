@@ -1,0 +1,27 @@
+.. tags: 
+.. title: Minuta de reunion 2014-05-29
+
+
+TODO LIST
+-----------------
+
+- Json schema (qbj): el json schema debe validar el qbj (Topo)
+- Consola python: ejecutar una shell python con contexto cargado (Emi)
+- Consola qbj: (Juan)
+- Test:
+    + kmeans (Juan) **done**
+    + weigth (Jési 3)
+    + yio (Juan)
+    + db (Juan)
+    + stats (Jési 2)
+    + etl (Jési 4)
+    + client (?)
+    + dom (Jési 1)
+- Los errores no se muestran en consola cuando se ejecutan los comandos de yatel (Emi)
+- Doc:
+    + qbj (Juan) (Topo)
+    + stats (Juan)
+    + server (Topo)
+    + etl (Topo)
+    + dom (Topo)
+    + db (Topo)
