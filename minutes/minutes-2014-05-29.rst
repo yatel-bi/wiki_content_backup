@@ -10,7 +10,7 @@ TODO LIST
 - Test:
     + kmeans (Juan) **done**
     + weigth (Jési 3)
-    + yio (Juan)
+    + yio (Juan) **done**
     + db (Juan)
     + stats (Jési 2)
     + etl (Jési 4)
