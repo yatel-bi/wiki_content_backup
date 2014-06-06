@@ -9,7 +9,7 @@ TODO LIST
 - Consola qbj: (Juan)
 - Test:
     + kmeans (Juan) **done**
-    + weigth (Jési 3)
+    + weigth (Juan) **done**
     + yio (Juan) **done**
     + db (Juan)
     + stats (Jési 2)
