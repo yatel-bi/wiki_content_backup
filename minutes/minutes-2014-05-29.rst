@@ -5,7 +5,7 @@ TODO LIST
 -----------------
 
 - Json schema (qbj): el json schema debe validar el qbj (Topo)
-- Consola python: ejecutar una shell python con contexto cargado (Emi)
+- Consola python: ejecutar una shell python con contexto cargado (juan) **done**
 - Consola qbj: (Juan)
 - Test:
     + kmeans (Juan) **done**
@@ -16,7 +16,7 @@ TODO LIST
     + etl (Jési 4)
     + client (?)
     + dom (Jési 1) **done**
-- Los errores no se muestran en consola cuando se ejecutan los comandos de yatel (Emi)
+- Los errores no se muestran en consola cuando se ejecutan los comandos de yatel (Juan) **done**
 - Doc:
     + qbj (Juan) (Topo)
     + stats (Juan)
