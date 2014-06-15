@@ -11,10 +11,10 @@ TODO LIST
     + kmeans (Juan) **done**
     + weigth (Juan) **done**
     + yio (Juan) **done**
-    + db (Juan)
+    + db (Juan) **done**
     + stats (Jési 2)
     + etl (Jési 4)
-    + client (?)
+    + client (?) **done**
     + dom (Jési 1) **done**
 - Los errores no se muestran en consola cuando se ejecutan los comandos de yatel (Juan) **done**
 - Doc:
