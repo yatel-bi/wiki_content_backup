@@ -6,7 +6,7 @@ TODO LIST
 
 - Json schema (qbj): el json schema debe validar el qbj (Topo)
 - Consola python: ejecutar una shell python con contexto cargado (juan) **done**
-- Consola qbj: (Juan)
+- Consola qbj: (Juan) **done**
 - Test:
     + kmeans (Juan) **done**
     + weigth (Juan) **done**
