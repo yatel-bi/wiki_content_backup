@@ -1,5 +1,5 @@
 .. tags: 
-.. title: Análisis de Tencent Weibo (red social KDDCup 2012)
+.. title: Análisis de Tencent Weibo
 
 **Análisis exploratorio de Tencent Weibo**
 
@@ -29,3 +29,10 @@ de existencias para cada valor del primer nivel.
     6,22
     7,1
     8,766
+
+En la siguiente imagen se puede ver la distribución completa del atributo
+"category". En el círculo interno está se representa a A y en el externo a C.
+Este tipo de gráficos se llama "sunburst" y es muy útil para visualizar datos
+jerárquicos o estructuras de árbol.
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/Analisis_categorias_v02.png
