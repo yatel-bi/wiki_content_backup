@@ -11,6 +11,9 @@ La BD
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/ERv01.png
 
+- Las tablas con relleno gris no existen en la BD original, las creé para normalizarla y hacer más simples algunas consultas.
+- Los atributos en azul pertenecen pertenecen a la misma clase, son palabras claves obtenidas con NLP y, en el caso de las tablas user_key_word* tienen un valor "peso".
+
 **Tamaño de BD**
 
 .. csv-table:: Base de datos - Tamaño y cant. de registros
