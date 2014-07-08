@@ -177,15 +177,15 @@ Atributo "user_profile.year_birth"
 Atributo "user_profile.gender"
 ++++++++++++++++++++++++++++++
 
-.. csv-table:: Distribución 1er nivel de "user_profile.gender"
+.. csv-table:: Distribución de "user_profile.gender"
     :header: gender,cant,descripción
 
-    0,24580,Desconocido
-    1,1159797,Masculino
-    2,1136390,Femenino
+    0,24.580,Desconocido
+    1,1.159.797,Masculino
+    2,1.136.390,Femenino
     3,128,Error
     
-
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/gender.png
 
 Atributo "item.category"
 ++++++++++++++++++++++++
