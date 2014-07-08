@@ -3,6 +3,10 @@
 
 **Análisis exploratorio de Tencent Weibo**
 
+La BD
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/ERv01.png
+
 Atributo Category
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
