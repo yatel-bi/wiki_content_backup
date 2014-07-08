@@ -37,7 +37,7 @@ La BD
     user_sns,50.492.960,2.0 GB
 
 
-Atributo "year_birth"
+Atributo "user_profile.year_birth"
 +++++++++++++++++++++
 
 - Hay 41.144 registros con valores indiscutiblemente erroneos
@@ -174,7 +174,7 @@ Atributo "year_birth"
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/year_birth.png
 
-Atributo "category"
+Atributo "item.category"
 +++++++++++++++++++
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
