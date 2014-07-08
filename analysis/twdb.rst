@@ -172,10 +172,10 @@ Atributo "year_birth"
     2012,947
     2013,1
 
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/year_birth.png
 
-
-Atributo Category
-+++++++++++++++++
+Atributo "category"
++++++++++++++++++++
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
 que representan una categoría o subcategoría de un ítem. Todos los ítems
