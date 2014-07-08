@@ -1,14 +1,19 @@
 .. tags: 
 .. title: Análisis de Tencent Weibo
 
-**Análisis exploratorio de Tencent Weibo**
-
 La BD
++++++
+
+* Fuente: KDD Cup 2012 Track 1
+* Datos: https://www.kddcup2012.org/c/kddcup2012-track1/data
+
+**Estructura**
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/ERv01.png
 
+**Tamaño de BD**
 
-.. csv-table:: Base de datos
+.. csv-table:: Base de datos - Tamaño y cant. de registros
     :header: Tabla,Filas,Tamaño
 
     item,6.095,1.2 MB
@@ -22,6 +27,7 @@ La BD
     user_sns,50.492.960,2.0 GB
 
 Atributo Category
++++++++++++++++++
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
 que representan una categoría o subcategoría de un ítem. Todos los ítems
