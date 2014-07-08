@@ -4,7 +4,7 @@
 General
 +++++++
 
-Para entender de qué se trata, leer esto:
+Para entender el domino de los datos, leer esto:
 
 https://www.kddcup2012.org/c/kddcup2012-track1
 
