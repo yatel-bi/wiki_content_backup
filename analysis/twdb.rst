@@ -38,7 +38,7 @@ La BD
 
 
 Atributo "user_profile.year_birth"
-+++++++++++++++++++++
+++++++++++++++++++++++++++++++++++
 
 - Hay 41.144 registros con valores indiscutiblemente erroneos
 - Los 2.279.751 restantes se distribuyen de la siguiente forma:
@@ -175,7 +175,7 @@ Atributo "user_profile.year_birth"
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/year_birth.png
 
 Atributo "item.category"
-+++++++++++++++++++
+++++++++++++++++++++++++
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
 que representan una categoría o subcategoría de un ítem. Todos los ítems
