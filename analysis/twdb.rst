@@ -177,6 +177,8 @@ Atributo "user_profile.year_birth"
 Atributo "user_profile.gender"
 ++++++++++++++++++++++++++++++
 
+- La distribución entre sexos es uniforme y hay pocos valores erroneos u omitidos.
+
 .. csv-table:: Distribución de "user_profile.gender"
     :header: gender,cant,descripción
 
