@@ -7,6 +7,20 @@ La BD
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/ERv01.png
 
+
+.. csv-table:: Base de datos
+    :header: Tabla,Filas,Tamaño
+
+    item,6.095,1.2 MB
+    item_keyword,202.802,3.9 MB
+    rec_log_train,73.068.927,8.9 GB
+    user_action,10.578.864,569.0 MB
+    user_key_word,2.301.577,250.8 MB
+    user_key_word_norm,15.657.691,694.0 MB
+    user_profile,2.314.012,121.6 MB
+    user_profile_tags,6.317.662,227.8 MB
+    user_sns,50.492.960,2.0 GB
+
 Atributo Category
 
 Este campo tiene la forma A.B.C.D, donde A, B, C y D son números enteros
