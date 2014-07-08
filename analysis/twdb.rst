@@ -1,6 +1,13 @@
 .. tags: 
 .. title: Análisis de Tencent Weibo
 
+General
++++++++
+
+Para entender de qué se trata, leer esto:
+
+https://www.kddcup2012.org/c/kddcup2012-track1
+
 La BD
 +++++
 
