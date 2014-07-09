@@ -218,7 +218,20 @@ En este gráfico se ve la cantidad de ocurrencias de cada tag_id ordenadas por c
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile_tags-tag_id_v01.png
 
+En el gráfico que sigue se puede ver la cantidad de tag_ids que tienen n cantidad de ocurrencias. Por ejemplo, hay 83.670 tag_ids que sólo aparecieron una vez.
 
+.. code-block:: sql
+
+    SELECT ocurrencias, COUNT( * ) AS cant
+    FROM (
+    		SELECT tag_id, COUNT( * ) AS ocurrencias
+    		FROM  `user_profile_tags` 
+    		GROUP BY tag_id
+    )A
+    GROUP BY ocurrencias
+    ORDER BY ocurrencias
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile_tags-tag_id_v02.png
 
 Atributo "item.category"
 ++++++++++++++++++++++++
