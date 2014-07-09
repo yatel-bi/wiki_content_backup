@@ -205,6 +205,21 @@ Gráfico para valores entre 1 y 499:
 
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile-n_tweets_v02.png
 
+
+Atributo "user_profile.tag_id"
+++++++++++++++++++++++++++++++
+
+Hay 130305 tag_ids diferentes en user_profile_tags.
+
+El tag_id más frecuente es "0", con 181.968 ocurrencias. La cantidad de ocurrencias de las demás tag_ids
+cae rápido. La mayoría tiene 1 ocurrencia.
+
+En este gráfico se ve la cantidad de ocurrencias de cada tag_id ordenadas por cantidad. Sólo se grafican las que tienen hasta 500 ocurrencias.
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile_tags-tag_id_v01.png
+
+
+
 Atributo "item.category"
 ++++++++++++++++++++++++
 
