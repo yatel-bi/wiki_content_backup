@@ -189,6 +189,22 @@ Atributo "user_profile.gender"
     
 .. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/gender.png
 
+
+
+Atributo "user_profile.n_tweets"
+++++++++++++++++++++++++++++++++
+
+El atributo "n_tweets" tiene como falor mínimo 0 con 181.968 ocurrencias y como máximo 65.506 tweets (el doble
+que el valor menor más cercano) con 1 ocurrencia.
+
+Gráfico completo:
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile-n_tweets_v01.png
+
+Gráfico para valores entre 1 y 499:
+
+.. image:: http://wiki.getyatel.org/analysis/twdb/_attachment/user_profile-n_tweets_v02.png
+
 Atributo "item.category"
 ++++++++++++++++++++++++
 
