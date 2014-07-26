@@ -26,13 +26,20 @@ https://www.kddcup2012.org/c/kddcup2012-track1/data
 
 **2) Haplotipos**
 
-Del archivo User_profile.csv usar los campos "year_birth" y "gender" para cargar la tabla haplotypes de Yatel. El campo hap_id se debe formar concatenando gender + '_' + year_birth. Además, tambien incluir en la tabla los atributos gender y year_birth como atributos separados. Solo se deben tener en cuenta los registros de User_profile.csv que tengam años "year_birth" bien formados (enteros de cuatro dígitos) entre 1889 y 2013. Para "gender" los valor válidos son 1 y 2. 
+Del archivo User_profile.csv usar los campos *year_birth* y *gender* 
+para cargar la tabla haplotypes de Yatel. El campo *hap_id* se debe formar 
+concatenando *gender* + '_' + *year_birth*. Además, tambien incluir en la 
+tabla los campos *gender* y *year_birth* como atributos separados. Solo se 
+deben tener en cuenta los registros de User_profile.csv que tengan 
+*year_birth* bien formados (enteros de cuatro dígitos) entre '1889' y '2013'. 
+Para *gender* los valor válidos son '1' y '2'. 
+
 Para aclarar, la lógica en SQL sería:
 
 .. code-block:: sql
 
-    INSERT INTO haplotypes( )
-    SELECT DISTINCT concat( gender, '_', year_birth ) , year_birth, gender
+    INSERT INTO haplotypes(hap_id, year_birth, gender)
+    SELECT DISTINCT concat(gender, '_', year_birth), year_birth, gender
     FROM `user_profile`
     WHERE year_birth
     IN (
