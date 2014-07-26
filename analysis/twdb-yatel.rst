@@ -47,7 +47,7 @@ Para aclarar, la lógica en SQL sería:
     )
     AND gender IN ('1','2')
 
-**2) Arcos**
+**3) Arcos**
 
 Cargar la tabla edges de Yatel con las distancias entre los haplotipos. 
 Para calcular las distancias (*weight*), se deben comparar todos los pares 
@@ -67,3 +67,9 @@ En SQL sería así:
     ABS(CAST(A.year_birth AS DECIMAL(4,0)) - CAST(B.year_birth AS DECIMAL(4,0))) * .125 
     + ABS(CAST(A.gender AS DECIMAL(1,0)) - CAST(B.gender AS DECIMAL(1,0))) AS weight
     FROM haplotypes A, haplotypes B
+
+**4) Hechos**
+
+**5) Distancia esperada**
+
+**6) Exploración por ambientes - Distancia por ambientes**
