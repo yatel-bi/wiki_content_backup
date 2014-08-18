@@ -70,6 +70,16 @@ En SQL sería así:
 
 **4) Hechos**
 
+Cargar la tabla *facts* de Yatel con el contenido del archivo *user_action.csv* y agregar los 
+campos *hap_id* (tiene que estar siempre en *facts*) y *dest_hap_id*. Estos nuevos campos
+son los *hap_id* que corresponden a los *user_id* de las dos primeras columnas.
+
+La tabla debe quedar así:
+
+.. image:: http://wiki.getyatel.org/analysis/twdb-yatel/_attachment/facts.png
+
+
+
 **5) Distancia esperada**
 
 **6) Exploración por ambientes - Distancia por ambientes**
