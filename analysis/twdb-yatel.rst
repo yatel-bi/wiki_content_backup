@@ -78,8 +78,12 @@ La tabla debe quedar así:
 
 .. image:: http://wiki.getyatel.org/analysis/twdb-yatel/_attachment/facts.png
 
+Se deben tener en cuenta los criterios de hap_id válidos del punto 2. Si un fact determinado no
+tiene un hap_id válido, no se debe importar.
 
 
 **5) Distancia esperada**
+
+
 
 **6) Exploración por ambientes - Distancia por ambientes**
