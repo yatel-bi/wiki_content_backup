@@ -96,6 +96,25 @@ En SQL sería así:
 	FROM user_action
 	GROUP BY n_action, n_retweet, n_comment
 
+Algunos ejemplos (los valores pueden tener errores):
+
+.. csv-table:: Ambientes
+    :header: n_action, n_retweet, n_comment, cantHap, cantFact
+
+    
+    0, 0, 0, 185, 14249
+    0, 0, 1, 247, 989179
+    0, 0, 2, 247, 195186
+    0, 0, 3, 240, 66460
+    0, 0, 4, 226, 34025
+    0, 0, 5, 220, 18742
+    0, 0, 6, 205, 12226
+    0, 0, 7, 181, 8071
+    0, 0, 8, 176, 5777
+    0, 0, 9, 168, 4255
+    0, 0, 10, 155, 3308
+    0, 0, 11, 151, 2578
+    0, 0, 12, 131, 1927
 
 
 **6) Distancia por ambientes**
