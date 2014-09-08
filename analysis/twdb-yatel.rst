@@ -85,8 +85,8 @@ tiene un hap_id válido, no se debe importar.
 **5) Exploración por ambientes**
 
 Dividir los hechos cargados por ambiente. Crear un ambiente para cada combinación
-existente de *n_action*, *n_retweet* y *n_comment*.
-Identificar los haplotipos que existen en cada ambiente.
+existente de *n_action*, *n_retweet* y *n_comment*. Hay aprox. 33000 ambientes.
+Identificar los haplotipos que existen en cada ambiente. En el ambiente *n_action* = 0, *n_retweet* = 0 y *n_comment* = 0 hay 184 haplotipos
 
 
 **6) Distancia por ambientes**
