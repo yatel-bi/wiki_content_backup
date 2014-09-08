@@ -92,7 +92,7 @@ En SQL sería así:
 
 .. code-block:: sql
 
-	SELECT n_action, n_retweet, n_comment, count( DISTINCT hap_id ) AS cantHap, count( * ) AS cantFact
+	SELECT n_action, n_retweet, n_comment, count(DISTINCT hap_id) AS cantHap, count(*) AS cantFact
 	FROM user_action
 	GROUP BY n_action, n_retweet, n_comment
 
