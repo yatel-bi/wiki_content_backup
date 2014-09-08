@@ -82,8 +82,17 @@ Se deben tener en cuenta los criterios de hap_id válidos del punto 2. Si un fac
 tiene un hap_id válido, no se debe importar.
 
 
-**5) Distancia esperada**
+**5) Exploración por ambientes**
+
+Dividir los hechos cargados por ambiente. Crear un ambiente para cada combinación
+existente de *n_action*, *n_retweet* y *n_comment*.
+Identificar los haplotipos que existen en cada ambiente.
+
+
+**6) Distancia por ambientes**
+
+
+**7) Distancia esperada**
 
 
 
-**6) Exploración por ambientes - Distancia por ambientes**
