@@ -142,6 +142,11 @@ En Yatel:
 
 **6) Distancia por ambientes**
 
+Para cada ambiente calcular SDH (suma de distancias entre haplotipos). 
+Se calcula sumando todos los arcos posibles entre los haplotipos que
+existen en cada ambiente.
+
+
 
 En Yatel:
 
