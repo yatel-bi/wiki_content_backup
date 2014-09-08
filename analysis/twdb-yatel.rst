@@ -88,6 +88,15 @@ Dividir los hechos cargados por ambiente. Crear un ambiente para cada combinaci�
 existente de *n_action*, *n_retweet* y *n_comment*. Hay aprox. 33000 ambientes.
 Identificar los haplotipos que existen en cada ambiente. En el ambiente *n_action* = 0, *n_retweet* = 0 y *n_comment* = 0 hay 184 haplotipos
 
+En SQL sería así:
+
+.. code-block:: sql
+
+	SELECT n_action, n_retweet, n_comment, count( DISTINCT hap_id ) AS cantHap, count( * ) AS cantFact
+	FROM user_action
+	GROUP BY n_action, n_retweet, n_comment
+
+
 
 **6) Distancia por ambientes**
 
