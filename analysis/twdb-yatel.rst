@@ -47,6 +47,13 @@ Para aclarar, la lógica en SQL sería:
     )
     AND gender IN ('1','2')
 
+En Yatel:
+
+.. code-block:: bash
+
+    $ xxxxx
+    
+
 **3) Arcos**
 
 Cargar la tabla edges de Yatel con las distancias entre los haplotipos. 
@@ -68,6 +75,12 @@ En SQL sería así:
     + ABS(CAST(A.gender AS DECIMAL(1,0)) - CAST(B.gender AS DECIMAL(1,0))) AS weight
     FROM haplotypes A, haplotypes B
 
+En Yatel:
+
+.. code-block:: bash
+
+    $ xxxxx
+
 **4) Hechos**
 
 Cargar la tabla *facts* de Yatel con el contenido del archivo *user_action.csv* y agregar los 
@@ -81,6 +94,11 @@ La tabla debe quedar así:
 Se deben tener en cuenta los criterios de hap_id válidos del punto 2. Si un fact determinado no
 tiene un hap_id válido, no se debe importar.
 
+En Yatel:
+
+.. code-block:: bash
+
+    $ xxxxx
 
 **5) Exploración por ambientes**
 
@@ -116,11 +134,26 @@ Algunos ejemplos (los valores pueden tener errores):
     0, 0, 11, 151, 2578
     0, 0, 12, 131, 1927
 
+En Yatel:
+
+.. code-block:: bash
+
+    $ xxxxx
 
 **6) Distancia por ambientes**
 
 
+En Yatel:
+
+.. code-block:: bash
+
+    $ xxxxx
+
 **7) Distancia esperada**
 
+En Yatel:
 
+.. code-block:: bash
+
+    $ xxxxx
 
