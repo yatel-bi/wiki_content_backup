@@ -39,7 +39,7 @@ Una vez que terminemos con el paso 2, 3 y 4, solo tenemos que decirle a Yatel qu
     $ yatel runetl -f sqlite:///weibo_nw.db weibo_etl.py
     
  
- Y con esto tenemos nuestra base de datos SQLite con la red creada.
+Y con esto tenemos nuestra base de datos SQLite con la red creada.
     
 
 **2) Haplotipos**
