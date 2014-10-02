@@ -34,6 +34,7 @@ Esto nos genera un archivo template en python llamado weibo_etl.py con la estruc
 
 Una vez que terminemos con el paso 2, 3 y 4, solo tenemos que decirle a Yatel que cree la red de la siguiente manera:
 
+.. code-block:: bash
 
     $ yatel runeetl weibo_etl.py
     
