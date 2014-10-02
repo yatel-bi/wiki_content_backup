@@ -24,6 +24,20 @@ Tareas
 Bajar alguno de los archivos que tienen la DB completa en 
 https://www.kddcup2012.org/c/kddcup2012-track1/data
 
+Para usar Yatel, como primer paso necesitamos crear un ETL:
+
+.. code-block:: bash
+
+    $ yatel createetl weibo_etl.py
+    
+Esto nos genera un archivo template en python llamado weibo_etl.py con la estructura necesaria para crear nuestro ETL. Cuando tengamos implementado los 3 metodos para la carga de Haplotipos, Arcos y Hechos, vamos a decirle a Yatel que lo use para crear nuestra red, sin tenes que tocar la base de datos a mano.
+
+Una vez que terminemos con el paso 2, 3 y 4, solo tenemos que decirle a Yatel que cree la red de la siguiente manera:
+
+
+    $ yatel runeetl weibo_etl.py
+    
+
 **2) Haplotipos**
 
 Del archivo User_profile.csv usar los campos *year_birth* y *gender* 
@@ -47,12 +61,36 @@ Para aclarar, la lógica en SQL sería:
     )
     AND gender IN ('1','2')
 
-En Yatel:
+En Yatel, para comenzar vamos a implementar el metodo haplotype_gen que crea los haplotipos:
 
-.. code-block:: bash
+.. code-block:: python
 
-    $ xxxxx
+	def haplotype_gen(self):
+        self.user_profile_db = {}
+        MIN_YEAR = 1889
+        GENDERS = (1, 2)
+        with open("KDDCUP/User_profile.csv", "rb") as csvfile:
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            next(reader, None)  # skip the headers
+            for row in reader:
+                try:
+                    user_id = int(row[0])
+                    year_birth = int(row[1])
+                    gender = int(row[2])
+                except ValueError as e:
+                    pass
+                else:
+                    hap_id = str(gender) + "_" + str(year_birth)
+
+                    if (year_birth >= MIN_YEAR) and (gender in GENDERS):
+                        self.user_profile_db[user_id] = hap_id
+
+                    if (year_birth >= MIN_YEAR) and (gender in GENDERS) and hap_id not in self.haplotypes_cache:
+                        hap = dom.Haplotype(hap_id, year_birth=year_birth, gender=gender)
+                        yield hap
     
+Notar que el archivo con los datos de entrada es un csv y se encuentra en "KDDCUP/User_profile.csv". Tampoco se puso limite superior al año de nacimiento permitido.
+
 
 **3) Arcos**
 
@@ -75,11 +113,17 @@ En SQL sería así:
     + ABS(CAST(A.gender AS DECIMAL(1,0)) - CAST(B.gender AS DECIMAL(1,0))) AS weight
     FROM haplotypes A, haplotypes B
 
-En Yatel:
+En Yatel, si nos fijamos el archivo creado el comando createetl (weibo_etl.py) ya contiene un metodo para la creación de los arcos, procedemos a implementar el método edge_gen:
 
-.. code-block:: bash
 
-    $ xxxxx
+.. code-block:: python
+
+    def edge_gen(self):
+        for hap0, hap1 in itertools.combinations(self.haplotypes_cache.values(), 2):
+            w = abs(hap0.year_birth - hap1.year_birth) * 0.125
+            w += 0 if hap0.gender == hap1.gender else 1
+            yield dom.Edge(w, (hap0.hap_id, hap1.hap_id))
+            
 
 **4) Hechos**
 
@@ -94,11 +138,37 @@ La tabla debe quedar así:
 Se deben tener en cuenta los criterios de hap_id válidos del punto 2. Si un fact determinado no
 tiene un hap_id válido, no se debe importar.
 
-En Yatel:
+De nuevo Yatel nos da una mano con este proceso, solo hay que implementar el método fact_gen que se encuentra en weibo_etl.py:
 
-.. code-block:: bash
+.. code-block:: python
 
-    $ xxxxx
+    def fact_gen(self):
+        with open("KDDCUP/user_action.csv", "rb") as csvfile:
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            next(reader, None)  # skip the headers
+            for row in reader:
+                try:
+                    user_id = int(row[0])
+                    user_dest_id = int(row[1])
+                    num_action = int(row[2])
+                    num_retweet = int(row[3])
+                    num_comment = int(row[4])
+                except ValueError as e:
+                    pass
+                else:
+                    user_hap_id = self.user_profile_db.get(user_id)
+                    if user_hap_id:
+                        user_dest_hap_id = self.user_profile_db.get(user_dest_id)
+                        fact = dom.Fact(hap_id=user_hap_id,
+                            user_id=user_id,
+                            user_dest_id=user_dest_id,
+                            num_action=num_action,
+                            num_retweet=num_retweet,
+                            num_comment=num_comment,
+                            user_dest_hap_id=user_dest_hap_id)
+                        yield fact
+                        
+De nuevo nuestro archivo de datos fuente es un csv "KDDCUP/user_action.csv"
 
 **5) Exploración por ambientes**
 
